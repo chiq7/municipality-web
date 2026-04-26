@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import WarningBanner from "@/components/WarningBanner";
 
 export const metadata: Metadata = {
   title: "未利用公共施設バンク | 全国の空き施設情報",
@@ -11,7 +12,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja" className="h-full">
       <body className="min-h-full flex flex-col bg-white text-gray-900 antialiased">
+        {/* 全ページ共通：免責バナー */}
+        <WarningBanner />
+
         {children}
+
         <footer className="mt-auto border-t border-gray-200 py-6 px-4">
           <div className="max-w-5xl mx-auto space-y-1">
             <p className="text-xs text-gray-500">

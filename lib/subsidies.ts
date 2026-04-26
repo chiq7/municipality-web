@@ -59,10 +59,10 @@ export function getApplicableSubsidies(facility: Facility): SubsidyInfo[] {
     result.push(SUBSIDIES.nousan);
   }
 
-  // 新規開業融資は廃止済・未利用 or 売却・貸付募集中の場合のみ表示
+  // 新規開業融資は廃止済・未利用 or 民間活用募集中の場合のみ表示
   if (
     facility.normalizedStatus === "廃止済・未利用" ||
-    facility.normalizedStatus === "売却・貸付募集中"
+    facility.normalizedStatus === "民間活用募集中"
   ) {
     result.push(SUBSIDIES.jfc);
   }

@@ -65,69 +65,130 @@ function parseCSV(text) {
   return rows;
 }
 
-function normalizeStatus(raw) {
-  if (!raw || raw.trim() === "") return "その他";
-  const s = raw.trim();
+// ステータス正規化（PDF原文テキストも参照して10パターンを判定）
+function normalizeStatus(raw, keywords, excerpt) {
+  const s = (raw || "").trim();
+  const kw = (keywords || "").toLowerCase();
+  const ex = (excerpt || "").toLowerCase();
+  const full = s.toLowerCase() + " " + kw + " " + ex;
 
-  // 売却・貸付募集中
+  if (!s) return "要確認";
+
+  // ── パターン6: 指定管理 → 活用済み（民間が既に運営中） ──
   if (
-    s.includes("サウンディング") ||
-    s.includes("売却・無償譲渡") ||
-    s.includes("売却又は用途廃止") ||
-    (s.includes("売却") && s.includes("募集")) ||
-    (s.includes("貸付") && (s.includes("募集") || s.includes("検討中"))) ||
-    s === "売却検討" ||
-    s === "売却・無償譲渡検討中" ||
-    s === "廃校済み。貸付・売却検討中、活用が見込めない施設は除却予定"
+    s.includes("指定管理") ||
+    s.includes("指定管理者") ||
+    s.includes("指定管理制度")
   )
-    return "売却・貸付募集中";
+    return "活用済み";
 
-  // 廃止済・活用中
+  // ── パターン9: カフェ・店舗が既に営業中 → 活用済み ──
+  // ── パターン7: 事業者決定済み・採択 → 活用済み（参考事例） ──
   if (
-    s.includes("廃止済み・地域交流") ||
-    s.includes("廃止済み・普通財産") ||
-    (s.includes("廃校") && s.includes("活用中")) ||
-    (s.includes("廃校") && s.includes("賃貸")) ||
-    (s.includes("廃止") && s.includes("活用中")) ||
+    full.includes("事業者決定") ||
+    full.includes("採択済") ||
+    (s.includes("廃止済") && (s.includes("活用中") || s.includes("賃貸") || s.includes("地域交流"))) ||
+    (s.includes("廃校") && (s.includes("活用中") || s.includes("賃貸活用"))) ||
     s === "廃止済（転用検討中）" ||
-    s.includes("廃止済み・跡地活用") ||
-    s.includes("廃止済み・売却または無償譲渡")
+    s.includes("廃止済み・跡地活用")
   )
-    return "廃止済・活用中";
+    return "活用済み";
 
-  // 廃止済・未利用
+  // ── 運営中・稼働中・営業中 = 現役施設 → 活用済み ──
+  if (
+    s === "運営中" || s.startsWith("運営中（") ||
+    s === "稼働中" || s.startsWith("稼働中（") ||
+    s === "営業中" || s.startsWith("営業中（") ||
+    s === "供用中" ||
+    s === "運営中（直営）" ||
+    s.includes("指定管理者による運営") ||
+    s.includes("指定管理者制度で運営")
+  )
+    return "活用済み";
+
+  // ── パターン3: 長寿命化改修対象 → 要確認（継続利用予定） ──
+  if (s.includes("長寿命化") || kw.includes("長寿命化"))
+    return "要確認";
+
+  // ── パターン4: 予防保全 → 要確認（修繕計画あり = 使い続ける） ──
+  if (s.includes("予防保全") || kw.includes("予防保全"))
+    return "要確認";
+
+  // ── パターン5: 修繕ロードマップある施設 → 要確認（廃止と矛盾） ──
+  if (
+    s.includes("大規模改修") || s.includes("大規模修繕") ||
+    s.includes("建替") || s.includes("建て替え") ||
+    s.includes("建替え") || s.includes("修繕計画")
+  )
+    return "要確認";
+
+  // ── パターン8: 公募型プロポーザル → 要確認（事業者決定済みの可能性） ──
+  if (full.includes("プロポーザル") || full.includes("公募型"))
+    return "要確認";
+
+  // ── 廃止済・未利用（PDF原文に明記） ──
   if (
     s.includes("廃止済み・未利用") ||
     s.includes("廃止・未利用") ||
     s.includes("廃校・未利用") ||
     s === "廃止済み" ||
     s === "廃止済" ||
+    s === "廃止" ||
     s === "廃止・売却" ||
     s === "廃止・譲与" ||
     s === "廃止・返還" ||
-    (s.startsWith("廃止") && !s.includes("予定") && !s.includes("検討")) ||
+    s === "廃止・解体予定" ||
     s === "廃校" ||
     s === "廃校施設" ||
     s === "廃校（未利用施設）" ||
-    s === "廃校・未利用"
+    s === "廃校済み。貸付・売却検討中、活用が見込めない施設は除却予定"
   )
     return "廃止済・未利用";
 
-  // 廃止予定
+  // ── 廃止予定（PDF原文に明記） ──
   if (
     s.includes("廃止予定") ||
-    s.includes("廃止検討") ||
-    s.includes("廃止検討中") ||
-    s.includes("廃止検討対象") ||
-    (s.includes("廃止") && s.includes("予定")) ||
-    s.includes("廃校予定")
+    s.includes("廃校予定") ||
+    (s.includes("廃止") && s.includes("予定") && !s.includes("廃止済"))
   )
     return "廃止予定";
 
-  // 休止中
+  // ── パターン1: 廃止検討中（まだ廃止されていない可能性） ──
+  if (
+    s.includes("廃止検討中") ||
+    s.includes("廃止検討対象") ||
+    (s.includes("廃止") && s.includes("検討") && !s.includes("廃止済"))
+  )
+    return "廃止検討中";
+
+  // ── パターン10: 廃止 + 民間活用・維持管理費削減目的 → 民間活用募集中 ──
+  if (
+    (s.includes("廃止") || s.includes("廃校") || s.includes("未利用")) &&
+    (full.includes("民間活用") || full.includes("サウンディング") || full.includes("利活用提案") || full.includes("民間譲渡"))
+  )
+    return "民間活用募集中";
+
+  // ── 売却・貸付 → 民間活用募集中 ──
+  if (
+    s.includes("売却検討") ||
+    s.includes("売却・無償譲渡") ||
+    s.includes("売却又は用途廃止") ||
+    s.includes("サウンディング") ||
+    (s.includes("売却") && !s.includes("売却済")) ||
+    (s.includes("貸付") && (s.includes("募集") || s.includes("検討") || s.includes("予定"))) ||
+    s.includes("無償譲渡検討")
+  )
+    return "民間活用募集中";
+
+  // ── パターン2: 用途廃止 → 要確認（施設全体廃止ではない可能性） ──
+  if (s.includes("用途廃止") && !s.includes("廃止済") && !s.includes("未利用"))
+    return "要確認";
+
+  // ── 休止中（PDF原文に明記） ──
   if (s.includes("休止中")) return "休止中";
 
-  return "その他";
+  // ── 上記以外 → 要確認 ──
+  return "要確認";
 }
 
 function detectFacilityType(keywords, facilityName) {
@@ -181,7 +242,7 @@ for (const row of dataRows) {
 
   if (!facilityName || !prefecture) continue;
 
-  const normalizedStatus = normalizeStatus(rawStatus);
+  const normalizedStatus = normalizeStatus(rawStatus, keywords, excerpt);
   const facilityType = detectFacilityType(keywords, facilityName);
   const municipalityUrl = getMunicipalityUrl(pdfUrl);
   const keywordList = keywords

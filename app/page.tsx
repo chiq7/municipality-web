@@ -37,7 +37,7 @@ export default function HomePage() {
             <span className="text-xs text-gray-500">{filtered.length}件表示中</span>
           </div>
           <p className="text-xs text-gray-500">
-            このサイトは全国の未利用公共施設を格安で借りたい事業者向けの情報サービスです
+            このサイトは全国の未利用公共施設を格安で借りたい事業者向けの情報サービスです。掲載状態はPDF原文に基づきます。
           </p>
         </div>
       </header>
