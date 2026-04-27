@@ -49,6 +49,8 @@ export interface Facility {
   contactEmail: string | null;
   lastVerifiedDate: string | null;
   verificationMethod: string | null;
+  lat?: number | null;
+  lng?: number | null;
   // 将来用（現在非表示）
   activationPotential: string | null;
   activationNotes: string | null;
