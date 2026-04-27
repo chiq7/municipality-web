@@ -424,7 +424,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒989-1601 宮城県柴田郡柴田町船岡中央２丁目３−４５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -436,7 +436,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.0564839,
+    "lng": 140.766602
   },
   {
     "id": "0014",
@@ -796,7 +798,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒959-0305 新潟県西蒲原郡弥彦村矢作４０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -808,7 +810,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.6908223,
+    "lng": 138.8546997
   },
   {
     "id": "0025",
@@ -932,7 +936,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒387-0011 長野県千曲市杭瀬下２丁目１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -944,7 +948,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.5307028,
+    "lng": 138.1148948
   },
   {
     "id": "0029",
@@ -964,7 +970,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒387-0011 長野県千曲市杭瀬下２丁目１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -976,7 +982,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.5307028,
+    "lng": 138.1148948
   },
   {
     "id": "0030",
@@ -1503,7 +1511,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒058-0204 北海道幌泉郡えりも町本町２０６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -1515,7 +1523,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.016302,
+    "lng": 143.1482137
   },
   {
     "id": "0046",
@@ -1637,7 +1647,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-5614 北海道十勝郡浦幌町桜町１５−６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -1649,7 +1659,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.80895839999999,
+    "lng": 143.6585368
   },
   {
     "id": "0050",
@@ -1669,7 +1681,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-5614 北海道十勝郡浦幌町桜町１５−６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -1681,7 +1693,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.80895839999999,
+    "lng": 143.6585368
   },
   {
     "id": "0051",
@@ -1701,7 +1715,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-5614 北海道十勝郡浦幌町桜町１５−６",
     "area": 718,
     "buildYear": 2011,
     "electricity": null,
@@ -1715,7 +1729,9 @@
     "activationPotential": null,
     "activationNotes": null,
     "buildingStructure": "W造",
-    "annualCost": 25000000
+    "annualCost": 25000000,
+    "lat": 42.80895839999999,
+    "lng": 143.6585368
   },
   {
     "id": "0052",
@@ -1735,7 +1751,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-5614 北海道十勝郡浦幌町桜町１５−６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -1747,7 +1763,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.80895839999999,
+    "lng": 143.6585368
   },
   {
     "id": "0053",
@@ -1832,7 +1850,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒068-2153 北海道三笠市幸町２ ２番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -1844,7 +1862,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.2453335,
+    "lng": 141.8749253
   },
   {
     "id": "0056",
@@ -2034,7 +2054,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒099-3641 北海道斜里郡小清水町元町２丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2046,7 +2066,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.8566961,
+    "lng": 144.4621071
   },
   {
     "id": "0062",
@@ -2066,7 +2088,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒078-1753 北海道上川郡上川町南町１８０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2079,7 +2101,9 @@
     "verificationMethod": null,
     "activationPotential": null,
     "activationNotes": null,
-    "annualCost": 5931000
+    "annualCost": 5931000,
+    "lat": 43.8471848,
+    "lng": 142.770398
   },
   {
     "id": "0063",
@@ -2167,7 +2191,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒059-2403 北海道新冠郡新冠町北星町３−２",
     "area": 51.53,
     "buildYear": 1968,
     "electricity": null,
@@ -2179,7 +2203,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.3624747,
+    "lng": 142.3183081
   },
   {
     "id": "0066",
@@ -2301,7 +2327,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "北海道増毛郡増毛町弁天町3丁目61番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2333,7 +2359,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-0112 北海道上川郡清水町南４条２丁目２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2345,7 +2371,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.0115844,
+    "lng": 142.8845824
   },
   {
     "id": "0071",
@@ -2365,7 +2393,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒099-4405 北海道斜里郡清里町羽衣町１３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2377,7 +2405,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.8352158,
+    "lng": 144.5945124
   },
   {
     "id": "0072",
@@ -2635,7 +2665,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒059-0012 北海道登別市中央町６丁目11−１１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2647,7 +2677,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.4127771,
+    "lng": 141.1066148
   },
   {
     "id": "0080",
@@ -2735,7 +2767,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-5604 北海道虻田郡洞爺湖町栄町５８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2747,7 +2779,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.5514291,
+    "lng": 140.7640235
   },
   {
     "id": "0083",
@@ -2835,7 +2869,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-3111 北海道二海郡八雲町住初町１３８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2847,7 +2881,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.2559569,
+    "lng": 140.2651668
   },
   {
     "id": "0086",
@@ -2901,7 +2937,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-3111 北海道二海郡八雲町住初町１３８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2913,7 +2949,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.2559569,
+    "lng": 140.2651668
   },
   {
     "id": "0088",
@@ -2933,7 +2971,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒072-0026 北海道美唄市西３条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -2945,7 +2983,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.3328672,
+    "lng": 141.853832
   },
   {
     "id": "0089",
@@ -2999,7 +3039,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-1312 北海道松前郡福島町福島８２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -3011,7 +3051,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 41.4838539,
+    "lng": 140.251394
   },
   {
     "id": "0091",
@@ -3031,7 +3073,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-1312 北海道松前郡福島町福島８２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -3043,7 +3085,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 41.4838539,
+    "lng": 140.251394
   },
   {
     "id": "0092",
@@ -3063,7 +3107,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒098-5705 北海道枝幸郡浜頓別町中央南１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -3075,7 +3119,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 45.1237477,
+    "lng": 142.3597036
   },
   {
     "id": "0093",
@@ -3095,7 +3141,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒098-5705 北海道枝幸郡浜頓別町中央南１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -3107,7 +3153,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 45.1237477,
+    "lng": 142.3597036
   },
   {
     "id": "0094",
@@ -3771,7 +3819,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒021-0053 岩手県一関市山目中野１４０−３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -3783,7 +3831,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.93302509999999,
+    "lng": 141.1179427
   },
   {
     "id": "0114",
@@ -3803,7 +3853,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒029-4503 岩手県胆沢郡金ケ崎町西根南町２２−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -3815,7 +3865,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.1957802,
+    "lng": 141.116289
   },
   {
     "id": "0115",
@@ -4039,7 +4091,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒981-2152 宮城県伊具郡丸森町鳥屋１２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -4051,7 +4103,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.9117098,
+    "lng": 140.7669419
   },
   {
     "id": "0122",
@@ -4549,7 +4603,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒999-4112 山形県北村山郡大石田町緑町１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -4561,7 +4615,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.5937438,
+    "lng": 140.37246
   },
   {
     "id": "0137",
@@ -4853,7 +4909,7 @@
     "facilityType": "公民館・集会施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒969-1792 福島県伊達郡国見町藤田一丁田二１−７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -4865,7 +4921,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.8766623,
+    "lng": 140.5490827
   },
   {
     "id": "0146",
@@ -4919,7 +4977,7 @@
     "facilityType": "倉庫・ストレージ",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒969-1792 福島県伊達郡国見町藤田一丁田二１−７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -4931,7 +4989,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.8766623,
+    "lng": 140.5490827
   },
   {
     "id": "0148",
@@ -5020,7 +5080,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒979-0402 福島県双葉郡広野町下北迫苗代替３５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -5032,7 +5092,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.21491049999999,
+    "lng": 140.9946114
   },
   {
     "id": "0151",
@@ -5188,7 +5250,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒300-1324 茨城県稲敷郡河内町源清田１１８３",
     "area": 2570,
     "buildYear": 1964,
     "electricity": null,
@@ -5200,7 +5262,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.8848235,
+    "lng": 140.2445257
   },
   {
     "id": "0156",
@@ -5321,7 +5385,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒322-0068 栃木県鹿沼市今宮町１６８８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -5333,7 +5397,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.5670745,
+    "lng": 139.7446526
   },
   {
     "id": "0160",
@@ -5455,7 +5521,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒319-0106 茨城県小美玉市堅倉８３５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -5467,7 +5533,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.239319,
+    "lng": 140.3525865
   },
   {
     "id": "0164",
@@ -5657,7 +5725,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "群馬県吾妻郡草津町大字草津",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -5791,7 +5859,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒367-0245 埼玉県児玉郡神川町植竹９０９",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -5803,7 +5871,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.2140422,
+    "lng": 139.1010658
   },
   {
     "id": "0174",
@@ -6027,7 +6097,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒367-0245 埼玉県児玉郡神川町植竹９０９",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -6039,7 +6109,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.2140422,
+    "lng": 139.1010658
   },
   {
     "id": "0181",
@@ -6399,7 +6471,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒351-0011 埼玉県朝霞市本町１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -6411,7 +6483,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.7972308,
+    "lng": 139.5938917
   },
   {
     "id": "0192",
@@ -6498,7 +6572,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒296-0001 千葉県鴨川市横渚１４５０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -6510,7 +6584,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.1121478,
+    "lng": 140.0982753
   },
   {
     "id": "0195",
@@ -6530,7 +6606,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒283-8511 千葉県東金市東岩崎１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -6542,7 +6618,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.5598711,
+    "lng": 140.3660079
   },
   {
     "id": "0196",
@@ -6834,7 +6912,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒100-0402 東京都新島村本村１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -6846,7 +6924,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.3771126,
+    "lng": 139.2571368
   },
   {
     "id": "0205",
@@ -7070,7 +7150,7 @@
     "facilityType": "庁舎・行政施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒253-0041 神奈川県茅ヶ崎市茅ヶ崎１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7082,7 +7162,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.3337749,
+    "lng": 139.4047528
   },
   {
     "id": "0212",
@@ -7204,7 +7286,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒249-0006 神奈川県逗子市逗子５丁目２−１６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7216,7 +7298,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.2955817,
+    "lng": 139.5804221
   },
   {
     "id": "0216",
@@ -7270,7 +7354,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒959-0305 新潟県西蒲原郡弥彦村矢作４０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7282,7 +7366,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.6908223,
+    "lng": 138.8546997
   },
   {
     "id": "0218",
@@ -7370,7 +7456,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒959-0305 新潟県西蒲原郡弥彦村矢作４０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7382,7 +7468,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.6908223,
+    "lng": 138.8546997
   },
   {
     "id": "0221",
@@ -7436,7 +7524,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒928-0021 石川県輪島市二ツ屋町２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7448,7 +7536,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.3897248,
+    "lng": 136.8998522
   },
   {
     "id": "0223",
@@ -7536,7 +7626,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒919-1333 福井県三方上中郡若狭町中央１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7548,7 +7638,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.5487037,
+    "lng": 135.9084428
   },
   {
     "id": "0226",
@@ -7636,7 +7728,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "山梨県北都留郡小菅村4698番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7804,7 +7896,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒401-0013 山梨県大月市大月２丁目６−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7816,7 +7908,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6105076,
+    "lng": 138.9400311
   },
   {
     "id": "0234",
@@ -7836,7 +7930,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒409-2732 山梨県南巨摩郡早川町高住７５８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -7848,7 +7942,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.4127376,
+    "lng": 138.3629782
   },
   {
     "id": "0235",
@@ -7936,7 +8032,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒401-0392 山梨県南都留郡富士河口湖町船津１７００",
     "area": 14456,
     "buildYear": 1997,
     "electricity": null,
@@ -7950,7 +8046,9 @@
     "activationPotential": null,
     "activationNotes": null,
     "buildingStructure": "鉄骨造",
-    "annualCost": 53233000
+    "annualCost": 53233000,
+    "lat": 35.4973238,
+    "lng": 138.7550004
   },
   {
     "id": "0238",
@@ -8078,7 +8176,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒401-0392 山梨県南都留郡富士河口湖町船津１７００",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -8090,7 +8188,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.4973238,
+    "lng": 138.7550004
   },
   {
     "id": "0242",
@@ -8489,7 +8589,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "長野県諏訪郡下諏訪町4613番地8",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -8653,7 +8753,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒382-0800 長野県上高井郡高山村高井４９７２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -8665,7 +8765,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.6798332,
+    "lng": 138.363683
   },
   {
     "id": "0259",
@@ -9127,7 +9229,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒387-0011 長野県千曲市杭瀬下２丁目１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -9139,7 +9241,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.5307028,
+    "lng": 138.1148948
   },
   {
     "id": "0273",
@@ -9227,7 +9331,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒399-5301 長野県木曽郡南木曽町読書３６６８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -9239,7 +9343,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6034848,
+    "lng": 137.6088729
   },
   {
     "id": "0276",
@@ -9429,7 +9535,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒506-0009 岐阜県高山市花岡町２丁目 18番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -9441,7 +9547,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.1461065,
+    "lng": 137.2522083
   },
   {
     "id": "0282",
@@ -9665,7 +9773,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒413-0504 静岡県賀茂郡河津町田中２１２−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -9677,7 +9785,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7572639,
+    "lng": 138.9874762
   },
   {
     "id": "0289",
@@ -9731,7 +9841,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒413-0504 静岡県賀茂郡河津町田中２１２−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -9743,7 +9853,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7572639,
+    "lng": 138.9874762
   },
   {
     "id": "0291",
@@ -10001,7 +10113,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒518-0823 三重県伊賀市四十九町３１８４",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -10013,7 +10125,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7498848,
+    "lng": 136.1422891
   },
   {
     "id": "0299",
@@ -10101,7 +10215,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒515-8515 三重県松阪市殿町１３４０−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -10113,7 +10227,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.5779693,
+    "lng": 136.5276276
   },
   {
     "id": "0302",
@@ -10133,7 +10249,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒519-2404 三重県多気郡大台町佐原７５０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -10145,7 +10261,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.3933026,
+    "lng": 136.4081342
   },
   {
     "id": "0303",
@@ -10469,7 +10587,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒669-6702 兵庫県美方郡新温泉町浜坂２６７３−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -10481,7 +10599,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6235065,
+    "lng": 134.4489008
   },
   {
     "id": "0313",
@@ -10637,7 +10757,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒638-0305 奈良県吉野郡天川村沢谷６０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -10649,7 +10769,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.2416037,
+    "lng": 135.8557712
   },
   {
     "id": "0318",
@@ -10805,7 +10927,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒649-7121 和歌山県伊都郡かつらぎ町丁ノ町２１６０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -10817,7 +10939,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.2964186,
+    "lng": 135.5037423
   },
   {
     "id": "0323",
@@ -10905,7 +11029,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒649-1213 和歌山県日高郡日高町高家６２６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -10917,7 +11041,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.9257045,
+    "lng": 135.1410763
   },
   {
     "id": "0326",
@@ -11039,7 +11165,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒728-0012 広島県三次市十日市中２丁目８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -11051,7 +11177,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8055817,
+    "lng": 132.8517462
   },
   {
     "id": "0330",
@@ -11071,7 +11199,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒728-0012 広島県三次市十日市中２丁目８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -11083,7 +11211,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8055817,
+    "lng": 132.8517462
   },
   {
     "id": "0331",
@@ -11239,7 +11369,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒722-1121 広島県世羅郡世羅町西上原１２３−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -11251,7 +11381,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.5870231,
+    "lng": 133.0569957
   },
   {
     "id": "0336",
@@ -11441,7 +11573,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒722-0045 広島県尾道市久保１丁目１５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -11453,7 +11585,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.4092803,
+    "lng": 133.2056941
   },
   {
     "id": "0342",
@@ -11811,7 +11945,7 @@
     "facilityType": "公民館・集会施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒799-3113 愛媛県伊予市米湊８２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -11823,7 +11957,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.757901,
+    "lng": 132.7034396
   },
   {
     "id": "0353",
@@ -11911,7 +12047,7 @@
     "facilityType": "倉庫・ストレージ",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒824-0821 福岡県京都郡みやこ町勝山上田９６０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -11923,7 +12059,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.6992738,
+    "lng": 130.9203136
   },
   {
     "id": "0356",
@@ -12045,7 +12183,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "３０６７番地, 3067 大行事 大字 大任町 田川郡 福岡県 824-0512 日本",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -12057,7 +12195,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.6121896,
+    "lng": 130.8538276
   },
   {
     "id": "0360",
@@ -12111,7 +12251,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒811-2392 福岡県糟屋郡粕屋町駕与丁１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -12123,7 +12263,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.61081679999999,
+    "lng": 130.4805527
   },
   {
     "id": "0362",
@@ -12143,7 +12285,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒811-2392 福岡県糟屋郡粕屋町駕与丁１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -12155,7 +12297,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.61081679999999,
+    "lng": 130.4805527
   },
   {
     "id": "0363",
@@ -12209,7 +12353,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒879-7131 大分県豊後大野市三重町市場１２００",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -12221,7 +12365,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.9775788,
+    "lng": 131.5841016
   },
   {
     "id": "0365",
@@ -12377,7 +12523,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒883-1601 宮崎県東臼杵郡椎葉村下福良１７６２−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -12389,7 +12535,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.4672946,
+    "lng": 131.1587373
   },
   {
     "id": "0370",
@@ -12579,7 +12727,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒879-5421 大分県由布市庄内町柿原３０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -12591,7 +12739,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.1800109,
+    "lng": 131.4267423
   },
   {
     "id": "0376",
@@ -12985,7 +13135,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒058-0204 北海道幌泉郡えりも町本町２０６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -12997,7 +13147,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.016302,
+    "lng": 143.1482137
   },
   {
     "id": "0388",
@@ -13085,7 +13237,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒098-2501 北海道中川郡音威子府村音威子府４４４−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13097,7 +13249,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 44.7254604,
+    "lng": 142.2623011
   },
   {
     "id": "0391",
@@ -13117,7 +13271,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒098-2501 北海道中川郡音威子府村音威子府４４４−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13129,7 +13283,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 44.7254604,
+    "lng": 142.2623011
   },
   {
     "id": "0392",
@@ -13149,7 +13305,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒098-2501 北海道中川郡音威子府村音威子府４４４−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13161,7 +13317,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 44.7254604,
+    "lng": 142.2623011
   },
   {
     "id": "0393",
@@ -13249,7 +13407,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-5614 北海道十勝郡浦幌町桜町１５−６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13261,7 +13419,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.80895839999999,
+    "lng": 143.6585368
   },
   {
     "id": "0396",
@@ -13315,7 +13475,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-5614 北海道十勝郡浦幌町桜町１５−６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13327,7 +13487,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.80895839999999,
+    "lng": 143.6585368
   },
   {
     "id": "0398",
@@ -13347,7 +13509,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-5614 北海道十勝郡浦幌町桜町１５−６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13359,7 +13521,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.80895839999999,
+    "lng": 143.6585368
   },
   {
     "id": "0399",
@@ -13379,7 +13543,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒099-0403 北海道紋別郡遠軽町１条通北３丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13391,7 +13555,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 44.0619416,
+    "lng": 143.5280576
   },
   {
     "id": "0400",
@@ -13479,7 +13645,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒044-0001 北海道虻田郡倶知安町北１条東３丁目３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13491,7 +13657,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.9020036,
+    "lng": 140.7589841
   },
   {
     "id": "0403",
@@ -13545,7 +13713,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒048-2202 北海道岩内郡共和町南幌似３８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13557,7 +13725,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.9804117,
+    "lng": 140.6111876
   },
   {
     "id": "0405",
@@ -13577,7 +13747,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒048-2202 北海道岩内郡共和町南幌似３８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13589,7 +13759,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.9804117,
+    "lng": 140.6111876
   },
   {
     "id": "0406",
@@ -13609,7 +13781,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-1542 北海道河西郡更別村更別１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13621,7 +13793,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.6507175,
+    "lng": 143.1864396
   },
   {
     "id": "0407",
@@ -13776,7 +13950,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒059-2403 北海道新冠郡新冠町北星町３−２",
     "area": 155.34,
     "buildYear": 2002,
     "electricity": null,
@@ -13788,7 +13962,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.3624747,
+    "lng": 142.3183081
   },
   {
     "id": "0412",
@@ -13808,7 +13984,7 @@
     "facilityType": "公民館・集会施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒059-2403 北海道新冠郡新冠町北星町３−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13820,7 +13996,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.3624747,
+    "lng": 142.3183081
   },
   {
     "id": "0413",
@@ -13874,7 +14052,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒059-2403 北海道新冠郡新冠町北星町３−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13886,7 +14064,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.3624747,
+    "lng": 142.3183081
   },
   {
     "id": "0415",
@@ -13906,7 +14086,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒059-2403 北海道新冠郡新冠町北星町３−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -13918,7 +14098,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.3624747,
+    "lng": 142.3183081
   },
   {
     "id": "0416",
@@ -13938,7 +14120,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "北海道増毛郡増毛町弁天町3丁目61番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14004,7 +14186,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-0112 北海道上川郡清水町南４条２丁目２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14016,7 +14198,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.0115844,
+    "lng": 142.8845824
   },
   {
     "id": "0419",
@@ -14174,7 +14358,7 @@
     "facilityType": "体育館・スポーツ施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒099-4405 北海道斜里郡清里町羽衣町１３",
     "area": 80.0,
     "buildYear": 1984,
     "electricity": null,
@@ -14186,7 +14370,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.8352158,
+    "lng": 144.5945124
   },
   {
     "id": "0424",
@@ -14240,7 +14426,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "北海道雨竜郡秩父別町4101番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14272,7 +14458,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒099-1100 北海道常呂郡置戸町置戸１８１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14284,7 +14470,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.676359,
+    "lng": 143.5863303
   },
   {
     "id": "0427",
@@ -14338,7 +14526,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒059-0012 北海道登別市中央町６丁目11−１１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14350,7 +14538,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.4127771,
+    "lng": 141.1066148
   },
   {
     "id": "0429",
@@ -14404,7 +14594,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-5604 北海道虻田郡洞爺湖町栄町５８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14416,7 +14606,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.5514291,
+    "lng": 140.7640235
   },
   {
     "id": "0431",
@@ -14434,7 +14626,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒079-0300 北海道空知郡奈井江町奈井江１１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14446,7 +14638,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.4267566,
+    "lng": 141.8823955
   },
   {
     "id": "0432",
@@ -14566,7 +14760,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒088-0311 北海道白糠郡白糠町西１条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14578,7 +14772,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.956174,
+    "lng": 144.0717341
   },
   {
     "id": "0436",
@@ -14598,7 +14794,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-3111 北海道二海郡八雲町住初町１３８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14610,7 +14806,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.2559569,
+    "lng": 140.2651668
   },
   {
     "id": "0437",
@@ -14699,7 +14897,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒088-0311 北海道白糠郡白糠町西１条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14711,7 +14909,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.956174,
+    "lng": 144.0717341
   },
   {
     "id": "0440",
@@ -14799,7 +14999,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-3111 北海道二海郡八雲町住初町１３８",
     "area": 1571,
     "buildYear": 1982,
     "electricity": null,
@@ -14811,7 +15011,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.2559569,
+    "lng": 140.2651668
   },
   {
     "id": "0443",
@@ -14865,7 +15067,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒072-0026 北海道美唄市西３条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14877,7 +15079,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.3328672,
+    "lng": 141.853832
   },
   {
     "id": "0445",
@@ -14897,7 +15101,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒072-0026 北海道美唄市西３条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -14909,7 +15113,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.3328672,
+    "lng": 141.853832
   },
   {
     "id": "0446",
@@ -14963,7 +15169,7 @@
     "facilityType": "体育館・スポーツ施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒072-0026 北海道美唄市西３条南１丁目１−１",
     "area": 701.0,
     "buildYear": null,
     "electricity": null,
@@ -14975,7 +15181,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.3328672,
+    "lng": 141.853832
   },
   {
     "id": "0448",
@@ -14995,7 +15203,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒072-0026 北海道美唄市西３条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15007,7 +15215,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.3328672,
+    "lng": 141.853832
   },
   {
     "id": "0449",
@@ -15027,7 +15237,7 @@
     "facilityType": "公民館・集会施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-3334 北海道中川郡本別町北２丁目４−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15039,7 +15249,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.1246602,
+    "lng": 143.6107647
   },
   {
     "id": "0450",
@@ -15160,7 +15372,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒046-8546 北海道余市郡余市町朝日町26番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15172,7 +15384,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.1953404,
+    "lng": 140.7835365
   },
   {
     "id": "0454",
@@ -15192,7 +15406,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒046-8546 北海道余市郡余市町朝日町26番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15204,7 +15418,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.1953404,
+    "lng": 140.7835365
   },
   {
     "id": "0455",
@@ -15258,7 +15474,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒097-1201 北海道礼文郡礼文町香深村トンナイ−５５８−５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15270,7 +15486,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 45.30000219999999,
+    "lng": 141.0467929
   },
   {
     "id": "0457",
@@ -15358,7 +15576,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒038-2761 青森県西津軽郡鰺ヶ沢町舞戸町鳴戸３２１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15370,7 +15588,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 40.7830118,
+    "lng": 140.2338655
   },
   {
     "id": "0460",
@@ -15390,7 +15610,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒021-0053 岩手県一関市山目中野１４０−３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15402,7 +15622,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.93302509999999,
+    "lng": 141.1179427
   },
   {
     "id": "0461",
@@ -15422,7 +15644,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒028-1341 岩手県下閉伊郡山田町八幡町３−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15434,7 +15656,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.4681092,
+    "lng": 141.9494507
   },
   {
     "id": "0462",
@@ -15454,7 +15678,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒028-1341 岩手県下閉伊郡山田町八幡町３−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15466,7 +15690,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.4681092,
+    "lng": 141.9494507
   },
   {
     "id": "0463",
@@ -15486,7 +15712,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒028-1341 岩手県下閉伊郡山田町八幡町３−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15498,7 +15724,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.4681092,
+    "lng": 141.9494507
   },
   {
     "id": "0464",
@@ -15552,7 +15780,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "岩手県陸前高田市高田町字下和野100番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15584,7 +15812,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "岩手県陸前高田市高田町字下和野100番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15821,7 +16049,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒981-2152 宮城県伊具郡丸森町鳥屋１２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -15833,7 +16061,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.9117098,
+    "lng": 140.7669419
   },
   {
     "id": "0474",
@@ -16227,7 +16457,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒012-0824 秋田県湯沢市佐竹町１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16239,7 +16469,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.1643019,
+    "lng": 140.4957291
   },
   {
     "id": "0486",
@@ -16259,7 +16491,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒999-4112 山形県北村山郡大石田町緑町１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16271,7 +16503,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.5937438,
+    "lng": 140.37246
   },
   {
     "id": "0487",
@@ -16291,7 +16525,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒999-4112 山形県北村山郡大石田町緑町１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16303,7 +16537,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.5937438,
+    "lng": 140.37246
   },
   {
     "id": "0488",
@@ -16357,7 +16593,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒990-1101 山形県西村山郡大江町左沢８８２−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16369,7 +16605,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.3807089,
+    "lng": 140.2069134
   },
   {
     "id": "0490",
@@ -16491,7 +16729,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒979-0402 福島県双葉郡広野町下北迫苗代替３５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16503,7 +16741,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.21491049999999,
+    "lng": 140.9946114
   },
   {
     "id": "0494",
@@ -16523,7 +16763,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "福島県大沼郡三島町大字宮下字宮下350",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16691,7 +16931,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒969-1792 福島県伊達郡国見町藤田一丁田二１−７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16703,7 +16943,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.8766623,
+    "lng": 140.5490827
   },
   {
     "id": "0500",
@@ -16723,7 +16965,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒963-6131 福島県東白川郡棚倉町棚倉中居野３３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16735,7 +16977,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.0294206,
+    "lng": 140.3790225
   },
   {
     "id": "0501",
@@ -16891,7 +17135,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒969-7201 福島県河沼郡柳津町柳津下平乙２３４",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -16903,7 +17147,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.5261485,
+    "lng": 139.7195134
   },
   {
     "id": "0506",
@@ -17027,7 +17273,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒969-7201 福島県河沼郡柳津町柳津下平乙２３４",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17039,7 +17285,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.5261485,
+    "lng": 139.7195134
   },
   {
     "id": "0510",
@@ -17127,7 +17375,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒370-2202 群馬県甘楽郡甘楽町小幡１６１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17139,7 +17387,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.2439506,
+    "lng": 138.9204403
   },
   {
     "id": "0513",
@@ -17261,7 +17511,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒377-1304 群馬県吾妻郡長野原町大字長野原１３４０−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17273,7 +17523,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.543788,
+    "lng": 138.6502078
   },
   {
     "id": "0517",
@@ -17497,7 +17749,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒368-0032 埼玉県秩父市熊木町８−１５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17509,7 +17761,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.9917644,
+    "lng": 139.0854619
   },
   {
     "id": "0524",
@@ -17631,7 +17885,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒369-1304 埼玉県秩父郡長瀞町本野上１０３５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17643,7 +17897,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.114715,
+    "lng": 139.1096546
   },
   {
     "id": "0528",
@@ -17663,7 +17919,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒351-0011 埼玉県朝霞市本町１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17675,7 +17931,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.7972308,
+    "lng": 139.5938917
   },
   {
     "id": "0529",
@@ -17829,7 +18087,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒369-1304 埼玉県秩父郡長瀞町本野上１０３５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17841,7 +18099,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.114715,
+    "lng": 139.1096546
   },
   {
     "id": "0534",
@@ -17861,7 +18121,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒296-0001 千葉県鴨川市横渚１４５０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17873,7 +18133,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.1121478,
+    "lng": 140.0982753
   },
   {
     "id": "0535",
@@ -17893,7 +18155,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒283-8511 千葉県東金市東岩崎１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -17905,7 +18167,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.5598711,
+    "lng": 140.3660079
   },
   {
     "id": "0536",
@@ -18027,7 +18291,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "東京都小笠原村父島字西町",
     "area": 37000,
     "buildYear": null,
     "electricity": null,
@@ -18059,7 +18323,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒100-0402 東京都新島村本村１丁目１−１",
     "area": 18.0,
     "buildYear": 1993,
     "electricity": null,
@@ -18072,7 +18336,9 @@
     "verificationMethod": null,
     "activationPotential": null,
     "activationNotes": null,
-    "buildingStructure": "RC造"
+    "buildingStructure": "RC造",
+    "lat": 34.3771126,
+    "lng": 139.2571368
   },
   {
     "id": "0541",
@@ -18297,7 +18563,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒258-0003 神奈川県足柄上郡松田町松田惣領２０３７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -18309,7 +18575,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.3483288,
+    "lng": 139.1390226
   },
   {
     "id": "0548",
@@ -18431,7 +18699,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒959-0305 新潟県西蒲原郡弥彦村矢作４０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -18443,7 +18711,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.6908223,
+    "lng": 138.8546997
   },
   {
     "id": "0552",
@@ -18463,7 +18733,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒959-0305 新潟県西蒲原郡弥彦村矢作４０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -18475,7 +18745,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.6908223,
+    "lng": 138.8546997
   },
   {
     "id": "0553",
@@ -18663,7 +18935,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒928-0021 石川県輪島市二ツ屋町２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -18675,7 +18947,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.3897248,
+    "lng": 136.8998522
   },
   {
     "id": "0559",
@@ -18695,7 +18969,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒919-1333 福井県三方上中郡若狭町中央１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -18707,7 +18981,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.5487037,
+    "lng": 135.9084428
   },
   {
     "id": "0560",
@@ -18761,7 +19037,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "山梨県北都留郡小菅村4698番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -18793,7 +19069,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒401-0013 山梨県大月市大月２丁目６−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -18805,7 +19081,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6105076,
+    "lng": 138.9400311
   },
   {
     "id": "0563",
@@ -18859,7 +19137,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "山梨県南アルプス市小笠原",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -19166,7 +19444,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "長野県諏訪郡下諏訪町4613番地8",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -19776,7 +20054,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒410-2292 静岡県伊豆の国市長岡３４０−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -19788,7 +20066,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.0277074,
+    "lng": 138.928715
   },
   {
     "id": "0592",
@@ -19808,7 +20088,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒410-2292 静岡県伊豆の国市長岡３４０−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -19820,7 +20100,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.0277074,
+    "lng": 138.928715
   },
   {
     "id": "0593",
@@ -19874,7 +20156,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒413-0504 静岡県賀茂郡河津町田中２１２−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -19886,7 +20168,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7572639,
+    "lng": 138.9874762
   },
   {
     "id": "0595",
@@ -19906,7 +20190,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒421-0422 静岡県牧之原市静波４４７−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -19918,7 +20202,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7396524,
+    "lng": 138.2243021
   },
   {
     "id": "0596",
@@ -20142,7 +20428,7 @@
     "facilityType": "公園・レクリエーション施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒470-1195 愛知県豊明市新田町子持松１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -20154,7 +20440,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.0538194,
+    "lng": 137.0131401
   },
   {
     "id": "0603",
@@ -20276,7 +20564,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒529-1169 滋賀県犬上郡豊郷町大字石畑３７５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -20288,7 +20576,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.200441,
+    "lng": 136.2299858
   },
   {
     "id": "0607",
@@ -20442,7 +20732,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒582-0016 大阪府柏原市安堂町１−５５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -20454,7 +20744,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.5793176,
+    "lng": 135.6286809
   },
   {
     "id": "0612",
@@ -20542,7 +20834,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒619-1212 京都府相楽郡和束町大字釜塚生水１４−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -20554,7 +20846,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7957355,
+    "lng": 135.9050382
   },
   {
     "id": "0615",
@@ -20640,7 +20934,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒669-6702 兵庫県美方郡新温泉町浜坂２６７３−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -20652,7 +20946,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6235065,
+    "lng": 134.4489008
   },
   {
     "id": "0618",
@@ -20672,7 +20968,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒678-0239 兵庫県赤穂市加里屋81番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -20684,7 +20980,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7549568,
+    "lng": 134.3902829
   },
   {
     "id": "0619",
@@ -20704,7 +21002,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒678-0239 兵庫県赤穂市加里屋81番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -20716,7 +21014,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7549568,
+    "lng": 134.3902829
   },
   {
     "id": "0620",
@@ -20870,7 +21170,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "奈良県御所市1番地の3",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -21580,7 +21880,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒728-0012 広島県三次市十日市中２丁目８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -21592,7 +21892,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8055817,
+    "lng": 132.8517462
   },
   {
     "id": "0646",
@@ -21612,7 +21914,7 @@
     "facilityType": "体育館・スポーツ施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒722-0045 広島県尾道市久保１丁目１５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -21624,7 +21926,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.4092803,
+    "lng": 133.2056941
   },
   {
     "id": "0647",
@@ -21644,7 +21948,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒722-0045 広島県尾道市久保１丁目１５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -21656,7 +21960,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.4092803,
+    "lng": 133.2056941
   },
   {
     "id": "0648",
@@ -21676,7 +21982,7 @@
     "facilityType": "体育館・スポーツ施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒722-0045 広島県尾道市久保１丁目１５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -21688,7 +21994,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.4092803,
+    "lng": 133.2056941
   },
   {
     "id": "0649",
@@ -21708,7 +22016,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒722-0045 広島県尾道市久保１丁目１５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -21720,7 +22028,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.4092803,
+    "lng": 133.2056941
   },
   {
     "id": "0650",
@@ -21740,7 +22050,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒722-0045 広島県尾道市久保１丁目１５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -21752,7 +22062,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.4092803,
+    "lng": 133.2056941
   },
   {
     "id": "0651",
@@ -21976,7 +22288,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒769-2701 香川県東かがわ市湊１８４７−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -21988,7 +22300,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.2436939,
+    "lng": 134.3588654
   },
   {
     "id": "0658",
@@ -22042,7 +22356,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒769-2701 香川県東かがわ市湊１８４７−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22054,7 +22368,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.2436939,
+    "lng": 134.3588654
   },
   {
     "id": "0660",
@@ -22108,7 +22424,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒811-4233 福岡県遠賀郡岡垣町野間１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22120,7 +22436,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.8535782,
+    "lng": 130.6118668
   },
   {
     "id": "0662",
@@ -22208,7 +22526,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒824-0821 福岡県京都郡みやこ町勝山上田９６０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22220,7 +22538,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.6992738,
+    "lng": 130.9203136
   },
   {
     "id": "0665",
@@ -22240,7 +22560,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒824-0821 福岡県京都郡みやこ町勝山上田９６０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22252,7 +22572,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.6992738,
+    "lng": 130.9203136
   },
   {
     "id": "0666",
@@ -22272,7 +22594,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒811-4233 福岡県遠賀郡岡垣町野間１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22284,7 +22606,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.8535782,
+    "lng": 130.6118668
   },
   {
     "id": "0667",
@@ -22508,7 +22832,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "３０６７番地, 3067 大行事 大字 大任町 田川郡 福岡県 824-0512 日本",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22520,7 +22844,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.6121896,
+    "lng": 130.8538276
   },
   {
     "id": "0674",
@@ -22608,7 +22934,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒822-1201 福岡県田川郡福智町金田９３７−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22620,7 +22946,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.6832488,
+    "lng": 130.7800973
   },
   {
     "id": "0677",
@@ -22674,7 +23002,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒879-7131 大分県豊後大野市三重町市場１２００",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22686,7 +23014,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.9775788,
+    "lng": 131.5841016
   },
   {
     "id": "0679",
@@ -22706,7 +23036,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒879-7131 大分県豊後大野市三重町市場１２００",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22718,7 +23048,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.9775788,
+    "lng": 131.5841016
   },
   {
     "id": "0680",
@@ -22738,7 +23070,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒879-7131 大分県豊後大野市三重町市場１２００",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22750,7 +23082,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.9775788,
+    "lng": 131.5841016
   },
   {
     "id": "0681",
@@ -22838,7 +23172,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒889-1301 宮崎県児湯郡川南町川南１３６８０−１ 川南町役場",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -22850,7 +23184,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.1789035,
+    "lng": 131.5521505
   },
   {
     "id": "0684",
@@ -23312,7 +23648,7 @@
     "facilityType": "医療・福祉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒901-0401 沖縄県島尻郡八重瀬町字東風平１１８８",
     "area": 197.43,
     "buildYear": 1979,
     "electricity": "不明",
@@ -23324,7 +23660,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.1581783,
+    "lng": 127.7187031
   },
   {
     "id": "0698",
@@ -23344,7 +23682,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒901-1111 沖縄県島尻郡南風原町兼城686番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23356,7 +23694,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.1911611,
+    "lng": 127.7285659
   },
   {
     "id": "0699",
@@ -23376,7 +23716,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒905-0014 沖縄県名護市港１丁目１−１ HXRV+7M",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23388,7 +23728,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.5915829,
+    "lng": 127.9774238
   },
   {
     "id": "0700",
@@ -23442,7 +23784,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒901-1111 沖縄県島尻郡南風原町兼城686番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23454,7 +23796,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.1911611,
+    "lng": 127.7285659
   },
   {
     "id": "0702",
@@ -23678,7 +24022,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-5614 北海道十勝郡浦幌町桜町１５−６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23690,7 +24034,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.80895839999999,
+    "lng": 143.6585368
   },
   {
     "id": "0709",
@@ -23744,7 +24090,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒044-0001 北海道虻田郡倶知安町北１条東３丁目３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23756,7 +24102,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.9020036,
+    "lng": 140.7589841
   },
   {
     "id": "0711",
@@ -23776,7 +24124,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒048-2202 北海道岩内郡共和町南幌似３８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23788,7 +24136,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.9804117,
+    "lng": 140.6111876
   },
   {
     "id": "0712",
@@ -23808,7 +24158,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒048-2202 北海道岩内郡共和町南幌似３８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23820,7 +24170,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.9804117,
+    "lng": 140.6111876
   },
   {
     "id": "0713",
@@ -23840,7 +24192,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒045-0013 北海道岩内郡岩内町高台１３４−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23852,7 +24204,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.97984,
+    "lng": 140.5147826
   },
   {
     "id": "0714",
@@ -23872,7 +24226,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒045-0013 北海道岩内郡岩内町高台１３４−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23884,7 +24238,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.97984,
+    "lng": 140.5147826
   },
   {
     "id": "0715",
@@ -23973,7 +24329,7 @@
     "facilityType": "体育館・スポーツ施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒078-2202 北海道雨竜郡沼田町南１条３丁目６−５３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -23985,7 +24341,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.8067961,
+    "lng": 141.9333338
   },
   {
     "id": "0718",
@@ -24005,7 +24363,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒078-2202 北海道雨竜郡沼田町南１条３丁目６−５３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24017,7 +24375,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.8067961,
+    "lng": 141.9333338
   },
   {
     "id": "0719",
@@ -24037,7 +24397,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒099-3641 北海道斜里郡小清水町元町２丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24049,7 +24409,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.8566961,
+    "lng": 144.4621071
   },
   {
     "id": "0720",
@@ -24069,7 +24431,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒078-1753 北海道上川郡上川町南町１８０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24081,7 +24443,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.8471848,
+    "lng": 142.770398
   },
   {
     "id": "0721",
@@ -24135,7 +24499,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒059-2403 北海道新冠郡新冠町北星町３−２",
     "area": 231.48,
     "buildYear": 1967,
     "electricity": null,
@@ -24147,7 +24511,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.3624747,
+    "lng": 142.3183081
   },
   {
     "id": "0723",
@@ -24201,7 +24567,7 @@
     "facilityType": "庁舎・行政施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "北海道増毛郡増毛町弁天町3丁目61番地",
     "area": 2417,
     "buildYear": 1968,
     "electricity": null,
@@ -24267,7 +24633,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-0112 北海道上川郡清水町南４条２丁目２",
     "area": 744.4,
     "buildYear": 1997,
     "electricity": null,
@@ -24279,7 +24645,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.0115844,
+    "lng": 142.8845824
   },
   {
     "id": "0727",
@@ -24367,7 +24735,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒099-4405 北海道斜里郡清里町羽衣町１３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24379,7 +24747,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.8352158,
+    "lng": 144.5945124
   },
   {
     "id": "0730",
@@ -24399,7 +24769,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒099-1100 北海道常呂郡置戸町置戸１８１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24411,7 +24781,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.676359,
+    "lng": 143.5863303
   },
   {
     "id": "0731",
@@ -24431,7 +24803,7 @@
     "facilityType": "公園・レクリエーション施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "北海道雨竜郡秩父別町4101番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24463,7 +24835,7 @@
     "facilityType": "公園・レクリエーション施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "北海道雨竜郡秩父別町4101番地",
     "area": 101.7,
     "buildYear": 1991,
     "electricity": null,
@@ -24596,7 +24968,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒079-0300 北海道空知郡奈井江町奈井江１１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24608,7 +24980,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.4267566,
+    "lng": 141.8823955
   },
   {
     "id": "0737",
@@ -24628,7 +25002,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒088-0311 北海道白糠郡白糠町西１条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24640,7 +25014,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.956174,
+    "lng": 144.0717341
   },
   {
     "id": "0738",
@@ -24660,7 +25036,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒088-0311 北海道白糠郡白糠町西１条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24672,7 +25048,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.956174,
+    "lng": 144.0717341
   },
   {
     "id": "0739",
@@ -24692,7 +25070,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-3111 北海道二海郡八雲町住初町１３８",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24704,7 +25082,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.2559569,
+    "lng": 140.2651668
   },
   {
     "id": "0740",
@@ -24792,7 +25172,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒072-0026 北海道美唄市西３条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24804,7 +25184,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.3328672,
+    "lng": 141.853832
   },
   {
     "id": "0743",
@@ -24824,7 +25206,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-1312 北海道松前郡福島町福島８２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24836,7 +25218,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 41.4838539,
+    "lng": 140.251394
   },
   {
     "id": "0744",
@@ -24856,7 +25240,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒078-2512 北海道雨竜郡北竜町和１１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24868,7 +25252,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.7310068,
+    "lng": 141.8794972
   },
   {
     "id": "0745",
@@ -24888,7 +25274,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-3334 北海道中川郡本別町北２丁目４−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24900,7 +25286,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.1246602,
+    "lng": 143.6107647
   },
   {
     "id": "0746",
@@ -24954,7 +25342,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-3334 北海道中川郡本別町北２丁目４−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -24966,7 +25354,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.1246602,
+    "lng": 143.6107647
   },
   {
     "id": "0748",
@@ -25087,7 +25477,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-0422 北海道上磯郡木古内町本町２１８ 218番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25099,7 +25489,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 41.6783704,
+    "lng": 140.4376534
   },
   {
     "id": "0752",
@@ -25119,7 +25511,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒049-0422 北海道上磯郡木古内町本町２１８ 218番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25131,7 +25523,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 41.6783704,
+    "lng": 140.4376534
   },
   {
     "id": "0753",
@@ -25219,7 +25613,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-4300 北海道足寄郡陸別町陸別東１条３丁目１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25231,7 +25625,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.4689254,
+    "lng": 143.7473889
   },
   {
     "id": "0756",
@@ -25317,7 +25713,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒038-2761 青森県西津軽郡鰺ヶ沢町舞戸町鳴戸３２１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25329,7 +25725,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 40.7830118,
+    "lng": 140.2338655
   },
   {
     "id": "0759",
@@ -25383,7 +25781,7 @@
     "facilityType": "公園・レクリエーション施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒021-0053 岩手県一関市山目中野１４０−３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25395,7 +25793,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.93302509999999,
+    "lng": 141.1179427
   },
   {
     "id": "0761",
@@ -25483,7 +25883,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒028-1341 岩手県下閉伊郡山田町八幡町３−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25495,7 +25895,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.4681092,
+    "lng": 141.9494507
   },
   {
     "id": "0764",
@@ -25549,7 +25951,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒028-1341 岩手県下閉伊郡山田町八幡町３−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25561,7 +25963,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.4681092,
+    "lng": 141.9494507
   },
   {
     "id": "0766",
@@ -25649,7 +26053,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒029-4503 岩手県胆沢郡金ケ崎町西根南町２２−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25661,7 +26065,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.1957802,
+    "lng": 141.116289
   },
   {
     "id": "0769",
@@ -25681,7 +26087,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒989-1601 宮城県柴田郡柴田町船岡中央２丁目３−４５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25693,7 +26099,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.0564839,
+    "lng": 140.766602
   },
   {
     "id": "0770",
@@ -25713,7 +26121,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒989-1601 宮城県柴田郡柴田町船岡中央２丁目３−４５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -25725,7 +26133,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.0564839,
+    "lng": 140.766602
   },
   {
     "id": "0771",
@@ -26018,7 +26428,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒012-0824 秋田県湯沢市佐竹町１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26030,7 +26440,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.1643019,
+    "lng": 140.4957291
   },
   {
     "id": "0780",
@@ -26118,7 +26530,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒999-4112 山形県北村山郡大石田町緑町１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26130,7 +26542,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.5937438,
+    "lng": 140.37246
   },
   {
     "id": "0783",
@@ -26150,7 +26564,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒999-8301 山形県飽海郡遊佐町遊佐舞鶴２０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26162,7 +26576,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 39.0148113,
+    "lng": 139.9087352
   },
   {
     "id": "0784",
@@ -26182,7 +26598,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒979-0402 福島県双葉郡広野町下北迫苗代替３５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26194,7 +26610,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.21491049999999,
+    "lng": 140.9946114
   },
   {
     "id": "0785",
@@ -26248,7 +26666,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒979-0402 福島県双葉郡広野町下北迫苗代替３５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26260,7 +26678,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.21491049999999,
+    "lng": 140.9946114
   },
   {
     "id": "0787",
@@ -26280,7 +26700,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "福島県大沼郡三島町大字宮下字宮下350",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26312,7 +26732,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒969-1792 福島県伊達郡国見町藤田一丁田二１−７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26324,7 +26744,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.8766623,
+    "lng": 140.5490827
   },
   {
     "id": "0789",
@@ -26344,7 +26766,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒969-1792 福島県伊達郡国見町藤田一丁田二１−７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26356,7 +26778,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.8766623,
+    "lng": 140.5490827
   },
   {
     "id": "0790",
@@ -26376,7 +26800,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒963-7846 福島県石川郡石川町長久保１８５−４",
     "area": 188,
     "buildYear": 1982,
     "electricity": null,
@@ -26389,7 +26813,9 @@
     "verificationMethod": null,
     "activationPotential": null,
     "activationNotes": null,
-    "buildingStructure": "鉄骨鉄筋コンクリート造"
+    "buildingStructure": "鉄骨鉄筋コンクリート造",
+    "lat": 37.1570614,
+    "lng": 140.4467339
   },
   {
     "id": "0791",
@@ -26409,7 +26835,7 @@
     "facilityType": "体育館・スポーツ施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒963-6131 福島県東白川郡棚倉町棚倉中居野３３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26421,7 +26847,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.0294206,
+    "lng": 140.3790225
   },
   {
     "id": "0792",
@@ -26441,7 +26869,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒963-6131 福島県東白川郡棚倉町棚倉中居野３３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26453,7 +26881,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.0294206,
+    "lng": 140.3790225
   },
   {
     "id": "0793",
@@ -26575,7 +27005,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒312-0052 茨城県ひたちなか市東石川２丁目１０−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26587,7 +27017,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.3966447,
+    "lng": 140.5348866
   },
   {
     "id": "0797",
@@ -26711,7 +27143,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒300-1324 茨城県稲敷郡河内町源清田１１８３",
     "area": 82.81,
     "buildYear": 1960,
     "electricity": null,
@@ -26723,7 +27155,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.8848235,
+    "lng": 140.2445257
   },
   {
     "id": "0801",
@@ -26912,7 +27346,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒322-0068 栃木県鹿沼市今宮町１６８８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26924,7 +27358,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.5670745,
+    "lng": 139.7446526
   },
   {
     "id": "0807",
@@ -26944,7 +27380,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒319-0106 茨城県小美玉市堅倉８３５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -26956,7 +27392,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.239319,
+    "lng": 140.3525865
   },
   {
     "id": "0808",
@@ -27010,7 +27448,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒370-2202 群馬県甘楽郡甘楽町小幡１６１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27022,7 +27460,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.2439506,
+    "lng": 138.9204403
   },
   {
     "id": "0810",
@@ -27042,7 +27482,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒370-2202 群馬県甘楽郡甘楽町小幡１６１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27054,7 +27494,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.2439506,
+    "lng": 138.9204403
   },
   {
     "id": "0811",
@@ -27247,7 +27689,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "群馬県吾妻郡草津町大字草津",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27279,7 +27721,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "群馬県吾妻郡草津町大字草津",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27379,7 +27821,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒368-0032 埼玉県秩父市熊木町８−１５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27391,7 +27833,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.9917644,
+    "lng": 139.0854619
   },
   {
     "id": "0821",
@@ -27509,7 +27953,7 @@
     "facilityType": "公民館・集会施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒369-1304 埼玉県秩父郡長瀞町本野上１０３５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27521,7 +27965,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.114715,
+    "lng": 139.1096546
   },
   {
     "id": "0825",
@@ -27541,7 +27987,7 @@
     "facilityType": "医療・福祉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒369-1304 埼玉県秩父郡長瀞町本野上１０３５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27553,7 +27999,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.114715,
+    "lng": 139.1096546
   },
   {
     "id": "0826",
@@ -27606,7 +28054,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒369-1304 埼玉県秩父郡長瀞町本野上１０３５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27618,7 +28066,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.114715,
+    "lng": 139.1096546
   },
   {
     "id": "0828",
@@ -27638,7 +28088,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒369-1304 埼玉県秩父郡長瀞町本野上１０３５−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27650,7 +28100,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.114715,
+    "lng": 139.1096546
   },
   {
     "id": "0829",
@@ -27704,7 +28156,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒296-0001 千葉県鴨川市横渚１４５０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27716,7 +28168,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.1121478,
+    "lng": 140.0982753
   },
   {
     "id": "0831",
@@ -27770,7 +28224,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒283-8511 千葉県東金市東岩崎１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27782,7 +28236,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.5598711,
+    "lng": 140.3660079
   },
   {
     "id": "0833",
@@ -27836,7 +28292,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒197-0814 東京都あきる野市二宮３５０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27848,7 +28304,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.7289247,
+    "lng": 139.294259
   },
   {
     "id": "0835",
@@ -27902,7 +28360,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "東京都利島村248番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -27934,7 +28392,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "東京都利島村248番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28102,7 +28560,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒258-0026 神奈川県足柄上郡開成町延沢７７３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28114,7 +28572,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.3364368,
+    "lng": 139.1232639
   },
   {
     "id": "0843",
@@ -28168,7 +28628,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒258-0003 神奈川県足柄上郡松田町松田惣領２０３７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28180,7 +28640,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.3483288,
+    "lng": 139.1390226
   },
   {
     "id": "0845",
@@ -28200,7 +28662,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒949-4353 新潟県三島郡出雲崎町川西１４０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28212,7 +28674,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.5306968,
+    "lng": 138.709406
   },
   {
     "id": "0846",
@@ -28232,7 +28696,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒930-0282 富山県中新川郡舟橋村佛生寺５５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28244,7 +28708,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.703941,
+    "lng": 137.3071303
   },
   {
     "id": "0847",
@@ -28298,7 +28764,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒959-0305 新潟県西蒲原郡弥彦村矢作４０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28310,7 +28776,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.6908223,
+    "lng": 138.8546997
   },
   {
     "id": "0849",
@@ -28330,7 +28798,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒959-0305 新潟県西蒲原郡弥彦村矢作４０２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28342,7 +28810,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.6908223,
+    "lng": 138.8546997
   },
   {
     "id": "0850",
@@ -28430,7 +28900,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒401-0013 山梨県大月市大月２丁目６−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28442,7 +28912,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6105076,
+    "lng": 138.9400311
   },
   {
     "id": "0853",
@@ -28462,7 +28934,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒401-0013 山梨県大月市大月２丁目６−２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28474,7 +28946,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6105076,
+    "lng": 138.9400311
   },
   {
     "id": "0854",
@@ -28494,7 +28968,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "山梨県南アルプス市小笠原",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28631,7 +29105,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "長野県諏訪郡下諏訪町4613番地8",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28697,7 +29171,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒383-0025 長野県中野市三好町１丁目３−１９",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28709,7 +29183,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.7415488,
+    "lng": 138.3692122
   },
   {
     "id": "0861",
@@ -28729,7 +29205,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒399-5301 長野県木曽郡南木曽町読書３６６８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28741,7 +29217,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6034848,
+    "lng": 137.6088729
   },
   {
     "id": "0862",
@@ -28897,7 +29375,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒399-7701 長野県東筑摩郡麻績村麻３８３７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -28909,7 +29387,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.4560663,
+    "lng": 138.0451837
   },
   {
     "id": "0867",
@@ -29439,7 +29919,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒470-2346 愛知県知多郡武豊町長尾山２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -29451,7 +29931,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8516461,
+    "lng": 136.9145063
   },
   {
     "id": "0883",
@@ -29471,7 +29953,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒470-2346 愛知県知多郡武豊町長尾山２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -29483,7 +29965,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8516461,
+    "lng": 136.9145063
   },
   {
     "id": "0884",
@@ -29503,7 +29987,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒470-2346 愛知県知多郡武豊町長尾山２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -29515,7 +29999,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8516461,
+    "lng": 136.9145063
   },
   {
     "id": "0885",
@@ -29569,7 +30055,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒470-1195 愛知県豊明市新田町子持松１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -29581,7 +30067,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.0538194,
+    "lng": 137.0131401
   },
   {
     "id": "0887",
@@ -29601,7 +30089,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒518-0823 三重県伊賀市四十九町３１８４",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -29613,7 +30101,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7498848,
+    "lng": 136.1422891
   },
   {
     "id": "0888",
@@ -29735,7 +30225,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒519-2404 三重県多気郡大台町佐原７５０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -29747,7 +30237,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.3933026,
+    "lng": 136.4081342
   },
   {
     "id": "0892",
@@ -29801,7 +30293,7 @@
     "facilityType": "宿泊・観光施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒619-1212 京都府相楽郡和束町大字釜塚生水１４−２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -29813,7 +30305,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7957355,
+    "lng": 135.9050382
   },
   {
     "id": "0894",
@@ -29901,7 +30395,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒669-6702 兵庫県美方郡新温泉町浜坂２６７３−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -29913,7 +30407,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.6235065,
+    "lng": 134.4489008
   },
   {
     "id": "0897",
@@ -30477,7 +30973,7 @@
     "facilityType": "廃校（旧学校）",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒649-1324 和歌山県日高郡日高川町土生１６０ 160番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -30489,7 +30985,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.9121443,
+    "lng": 135.1853733
   },
   {
     "id": "0914",
@@ -30577,7 +31075,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒649-1213 和歌山県日高郡日高町高家６２６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -30589,7 +31087,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.9257045,
+    "lng": 135.1410763
   },
   {
     "id": "0917",
@@ -30609,7 +31109,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒689-2221 鳥取県東伯郡北栄町由良宿４２３−１",
     "area": 545,
     "buildYear": null,
     "electricity": null,
@@ -30621,7 +31121,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.4901326,
+    "lng": 133.7582838
   },
   {
     "id": "0918",
@@ -30811,7 +31313,7 @@
     "facilityType": "体育館・スポーツ施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒728-0012 広島県三次市十日市中２丁目８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -30823,7 +31325,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8055817,
+    "lng": 132.8517462
   },
   {
     "id": "0924",
@@ -30843,7 +31347,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒728-0012 広島県三次市十日市中２丁目８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -30855,7 +31359,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8055817,
+    "lng": 132.8517462
   },
   {
     "id": "0925",
@@ -30875,7 +31381,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒728-0012 広島県三次市十日市中２丁目８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -30887,7 +31393,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8055817,
+    "lng": 132.8517462
   },
   {
     "id": "0926",
@@ -30976,7 +31484,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒728-0012 広島県三次市十日市中２丁目８−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -30988,7 +31496,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8055817,
+    "lng": 132.8517462
   },
   {
     "id": "0929",
@@ -31212,7 +31722,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒766-0001 香川県仲多度郡琴平町榎井８１７−１０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31224,7 +31734,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.188941,
+    "lng": 133.8184447
   },
   {
     "id": "0936",
@@ -31244,7 +31756,7 @@
     "facilityType": "温泉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒769-2701 香川県東かがわ市湊１８４７−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31256,7 +31768,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.2436939,
+    "lng": 134.3588654
   },
   {
     "id": "0937",
@@ -31310,7 +31824,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒799-3113 愛媛県伊予市米湊８２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31322,7 +31836,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.757901,
+    "lng": 132.7034396
   },
   {
     "id": "0939",
@@ -31376,7 +31892,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒799-3113 愛媛県伊予市米湊８２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31388,7 +31904,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.757901,
+    "lng": 132.7034396
   },
   {
     "id": "0941",
@@ -31408,7 +31926,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒799-3113 愛媛県伊予市米湊８２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31420,7 +31938,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.757901,
+    "lng": 132.7034396
   },
   {
     "id": "0942",
@@ -31440,7 +31960,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒799-3113 愛媛県伊予市米湊８２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31452,7 +31972,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.757901,
+    "lng": 132.7034396
   },
   {
     "id": "0943",
@@ -31506,7 +32028,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒781-7414 高知県安芸郡東洋町生見７５８−３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31518,7 +32040,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.5279655,
+    "lng": 134.2800638
   },
   {
     "id": "0945",
@@ -31538,7 +32062,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒781-7414 高知県安芸郡東洋町生見７５８−３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31550,7 +32074,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.5279655,
+    "lng": 134.2800638
   },
   {
     "id": "0946",
@@ -31570,7 +32096,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒811-4233 福岡県遠賀郡岡垣町野間１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31582,7 +32108,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.8535782,
+    "lng": 130.6118668
   },
   {
     "id": "0947",
@@ -31636,7 +32164,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒811-4233 福岡県遠賀郡岡垣町野間１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31648,7 +32176,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.8535782,
+    "lng": 130.6118668
   },
   {
     "id": "0949",
@@ -31770,7 +32300,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒811-2244 福岡県糟屋郡志免町志免中央１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31782,7 +32312,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.591486,
+    "lng": 130.4798409
   },
   {
     "id": "0953",
@@ -31802,7 +32334,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒838-0068 福岡県朝倉市甘木２３２−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -31814,7 +32346,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.4137554,
+    "lng": 130.6597084
   },
   {
     "id": "0954",
@@ -32106,7 +32640,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒879-7131 大分県豊後大野市三重町市場１２００",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32118,7 +32652,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.9775788,
+    "lng": 131.5841016
   },
   {
     "id": "0963",
@@ -32138,7 +32674,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒879-7131 大分県豊後大野市三重町市場１２００",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32150,7 +32686,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.9775788,
+    "lng": 131.5841016
   },
   {
     "id": "0964",
@@ -32170,7 +32708,7 @@
     "facilityType": "公民館・集会施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒883-1601 宮崎県東臼杵郡椎葉村下福良１７６２−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32182,7 +32720,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.4672946,
+    "lng": 131.1587373
   },
   {
     "id": "0965",
@@ -32338,7 +32878,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒889-1301 宮崎県児湯郡川南町川南１３６８０−１ 川南町役場",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32350,7 +32890,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 32.1789035,
+    "lng": 131.5521505
   },
   {
     "id": "0970",
@@ -32370,7 +32912,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒899-7305 鹿児島県曽於郡大崎町假宿",
     "area": 82.25,
     "buildYear": 1979,
     "electricity": null,
@@ -32382,7 +32924,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 31.4377434,
+    "lng": 130.9977096
   },
   {
     "id": "0971",
@@ -32402,7 +32946,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒899-7305 鹿児島県曽於郡大崎町假宿",
     "area": 99.15,
     "buildYear": 1979,
     "electricity": null,
@@ -32414,7 +32958,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 31.4377434,
+    "lng": 130.9977096
   },
   {
     "id": "0972",
@@ -32434,7 +32980,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒899-7305 鹿児島県曽於郡大崎町假宿",
     "area": 86.35,
     "buildYear": 1989,
     "electricity": null,
@@ -32446,7 +32992,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 31.4377434,
+    "lng": 130.9977096
   },
   {
     "id": "0973",
@@ -32466,7 +33014,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒899-7305 鹿児島県曽於郡大崎町假宿",
     "area": 40.0,
     "buildYear": 2001,
     "electricity": null,
@@ -32478,7 +33026,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 31.4377434,
+    "lng": 130.9977096
   },
   {
     "id": "0974",
@@ -32498,7 +33048,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒899-7305 鹿児島県曽於郡大崎町假宿",
     "area": 30.0,
     "buildYear": 1983,
     "electricity": null,
@@ -32510,7 +33060,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 31.4377434,
+    "lng": 130.9977096
   },
   {
     "id": "0975",
@@ -32530,7 +33082,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒899-7305 鹿児島県曽於郡大崎町假宿",
     "area": 32.0,
     "buildYear": 1996,
     "electricity": null,
@@ -32542,7 +33094,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 31.4377434,
+    "lng": 130.9977096
   },
   {
     "id": "0976",
@@ -32562,7 +33116,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒905-1411 沖縄県国頭郡国頭村辺土名１２１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32574,7 +33128,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.7456492,
+    "lng": 128.1779284
   },
   {
     "id": "0977",
@@ -32662,7 +33218,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒901-0401 沖縄県島尻郡八重瀬町字東風平１１８８",
     "area": 676.4,
     "buildYear": 1982,
     "electricity": null,
@@ -32674,7 +33230,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.1581783,
+    "lng": 127.7187031
   },
   {
     "id": "0980",
@@ -32694,7 +33252,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒905-1204 沖縄県国頭郡東村平良８０４",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32706,7 +33264,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.6329573,
+    "lng": 128.1560445
   },
   {
     "id": "0981",
@@ -32726,7 +33286,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒905-1204 沖縄県国頭郡東村平良８０４",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32738,7 +33298,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.6329573,
+    "lng": 128.1560445
   },
   {
     "id": "0982",
@@ -32826,7 +33388,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒044-0001 北海道虻田郡倶知安町北１条東３丁目３",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32838,7 +33400,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.9020036,
+    "lng": 140.7589841
   },
   {
     "id": "0985",
@@ -32858,7 +33422,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-1542 北海道河西郡更別村更別１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32870,7 +33434,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 42.6507175,
+    "lng": 143.1864396
   },
   {
     "id": "0986",
@@ -32890,7 +33456,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒048-2406 北海道余市郡仁木町西町１丁目３６−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32902,7 +33468,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.1514645,
+    "lng": 140.7657409
   },
   {
     "id": "0987",
@@ -32922,7 +33490,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒071-0292 北海道上川郡美瑛町本町４丁目６−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -32934,7 +33502,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.5881869,
+    "lng": 142.4669716
   },
   {
     "id": "0988",
@@ -33056,7 +33626,7 @@
     "facilityType": "体育館・スポーツ施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒072-0026 北海道美唄市西３条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33068,7 +33638,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.3328672,
+    "lng": 141.853832
   },
   {
     "id": "0992",
@@ -33122,7 +33694,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒072-0026 北海道美唄市西３条南１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33134,7 +33706,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.3328672,
+    "lng": 141.853832
   },
   {
     "id": "0994",
@@ -33256,7 +33830,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-4300 北海道足寄郡陸別町陸別東１条３丁目１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33268,7 +33842,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.4689254,
+    "lng": 143.7473889
   },
   {
     "id": "0998",
@@ -33322,7 +33898,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒089-4300 北海道足寄郡陸別町陸別東１条３丁目１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33334,7 +33910,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 43.4689254,
+    "lng": 143.7473889
   },
   {
     "id": "1000",
@@ -33486,7 +34064,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒038-1113 青森県南津軽郡田舎館村田舎舘中辻１２３−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33498,7 +34076,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 40.6314201,
+    "lng": 140.5501819
   },
   {
     "id": "1005",
@@ -33550,7 +34130,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "岩手県陸前高田市高田町字下和野100番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33650,7 +34230,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒981-2152 宮城県伊具郡丸森町鳥屋１２０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33662,7 +34242,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 37.9117098,
+    "lng": 140.7669419
   },
   {
     "id": "1010",
@@ -33682,7 +34264,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒989-1305 宮城県柴田郡村田町村田迫6−６",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33694,7 +34276,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.11850099999999,
+    "lng": 140.7224545
   },
   {
     "id": "1011",
@@ -33714,7 +34298,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒991-0021 山形県寒河江市中央１丁目９−４５",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -33726,7 +34310,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 38.3809204,
+    "lng": 140.2760187
   },
   {
     "id": "1012",
@@ -33986,7 +34572,7 @@
     "facilityType": "医療・福祉施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "茨城県東茨城郡大洗町磯浜町",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34085,7 +34671,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒367-0245 埼玉県児玉郡神川町植竹９０９",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34097,7 +34683,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.2140422,
+    "lng": 139.1010658
   },
   {
     "id": "1023",
@@ -34151,7 +34739,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒355-0211 埼玉県比企郡嵐山町杉山１０３０−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34163,7 +34751,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.0566105,
+    "lng": 139.3206213
   },
   {
     "id": "1025",
@@ -34319,7 +34909,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "東京都利島村248番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34351,7 +34941,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "東京都利島村248番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34383,7 +34973,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "東京都利島村248番地",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34415,7 +35005,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒930-0282 富山県中新川郡舟橋村佛生寺５５",
     "area": 144.8,
     "buildYear": null,
     "electricity": null,
@@ -34427,7 +35017,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 36.703941,
+    "lng": 137.3071303
   },
   {
     "id": "1033",
@@ -34515,7 +35107,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒411-8666 静岡県三島市北田町４−４７",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34527,7 +35119,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.1184325,
+    "lng": 138.9185823
   },
   {
     "id": "1036",
@@ -34581,7 +35175,7 @@
     "facilityType": "公民館・集会施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒421-0422 静岡県牧之原市静波４４７−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34593,7 +35187,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7396524,
+    "lng": 138.2243021
   },
   {
     "id": "1038",
@@ -34613,7 +35209,7 @@
     "facilityType": "公民館・集会施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒421-0422 静岡県牧之原市静波４４７−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34625,7 +35221,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7396524,
+    "lng": 138.2243021
   },
   {
     "id": "1039",
@@ -34645,7 +35243,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒470-2346 愛知県知多郡武豊町長尾山２",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34657,7 +35255,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8516461,
+    "lng": 136.9145063
   },
   {
     "id": "1040",
@@ -34745,7 +35345,7 @@
     "facilityType": "公園・レクリエーション施設",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒519-2404 三重県多気郡大台町佐原７５０",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34757,7 +35357,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.3933026,
+    "lng": 136.4081342
   },
   {
     "id": "1043",
@@ -34811,7 +35413,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒675-1115 兵庫県加古郡稲美町国岡１丁目１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -34823,7 +35425,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.7490339,
+    "lng": 134.9134057
   },
   {
     "id": "1045",
@@ -35081,7 +35685,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒669-5202 兵庫県朝来市和田山町東谷２１３−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -35093,7 +35697,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.339299,
+    "lng": 134.8525873
   },
   {
     "id": "1053",
@@ -35113,7 +35719,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒670-0955 兵庫県姫路市安田４丁目１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -35125,7 +35731,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 34.8154791,
+    "lng": 134.6857256
   },
   {
     "id": "1054",
@@ -35145,7 +35753,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "奈良県御所市1番地の3",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -35177,7 +35785,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒689-2221 鳥取県東伯郡北栄町由良宿４２３−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -35189,7 +35797,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 35.4901326,
+    "lng": 133.7582838
   },
   {
     "id": "1056",
@@ -35413,7 +36023,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒811-4233 福岡県遠賀郡岡垣町野間１丁目１−１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -35425,7 +36035,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.8535782,
+    "lng": 130.6118668
   },
   {
     "id": "1063",
@@ -35513,7 +36125,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒861-0803 熊本県玉名郡南関町関町６４",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -35525,7 +36137,9 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 33.0597455,
+    "lng": 130.5439381
   },
   {
     "id": "1066",
@@ -35579,7 +36193,7 @@
     "facilityType": "未分類",
     "dataAcquiredDate": "2025年4月",
     "tags": [],
-    "exactAddress": null,
+    "exactAddress": "日本、〒905-1411 沖縄県国頭郡国頭村辺土名１２１",
     "area": null,
     "buildYear": null,
     "electricity": null,
@@ -35591,6 +36205,8 @@
     "lastVerifiedDate": null,
     "verificationMethod": null,
     "activationPotential": null,
-    "activationNotes": null
+    "activationNotes": null,
+    "lat": 26.7456492,
+    "lng": 128.1779284
   }
 ]
