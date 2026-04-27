@@ -191,6 +191,21 @@ function normalizeStatus(raw, keywords, excerpt) {
   return "要確認";
 }
 
+function detectTags(keywords, facilityName) {
+  const text = (keywords + " " + facilityName);
+  const tags = [];
+  if (
+    text.includes("ヘリポート") || text.includes("ヘリパッド") ||
+    text.includes("避難所") || text.includes("避難場所") ||
+    text.includes("防災倉庫") || text.includes("備蓄倉庫") ||
+    text.includes("防災センター") || text.includes("防災拠点") ||
+    text.includes("防災備蓄")
+  ) {
+    tags.push("条件付き利用可");
+  }
+  return tags;
+}
+
 function detectFacilityType(keywords, facilityName) {
   const text = (keywords + " " + facilityName).toLowerCase();
   if (text.includes("温泉")) return "温泉施設";
@@ -249,6 +264,7 @@ for (const row of dataRows) {
     .split(/[、,]/)
     .map((k) => k.trim())
     .filter(Boolean);
+  const tags = detectTags(keywords, facilityName);
 
   facilities.push({
     id: String(id++).padStart(4, "0"),
@@ -265,6 +281,7 @@ for (const row of dataRows) {
     scoreReason,
     facilityType,
     dataAcquiredDate: "2025年4月",
+    tags,
     // 未取得フィールド（後から入力）
     exactAddress: null,
     area: null,

@@ -34,10 +34,13 @@ export interface Facility {
   scoreReason: string;
   facilityType: FacilityType;
   dataAcquiredDate: string;
+  tags: string[];
   // 未取得フィールド
   exactAddress: string | null;
-  area: string | null;
-  buildYear: string | null;
+  area: string | number | null;
+  buildYear: string | number | null;
+  buildingStructure: string | null;
+  annualCost: number | null;
   electricity: string | null;
   water: string | null;
   gas: string | null;

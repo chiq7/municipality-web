@@ -30,6 +30,8 @@ type FormState = {
   exactAddress: string;
   area: string;
   buildYear: string;
+  buildingStructure: string;
+  annualCost: string;
   electricity: string;
   water: string;
   gas: string;
@@ -47,6 +49,8 @@ export default function AdminEdit({ facility }: Props) {
     exactAddress: "",
     area: "",
     buildYear: "",
+    buildingStructure: "",
+    annualCost: "",
     electricity: "",
     water: "",
     gas: "",
@@ -60,9 +64,11 @@ export default function AdminEdit({ facility }: Props) {
   useEffect(() => {
     const stored = loadOverrides()[facility.id] || {};
     setForm({
-      exactAddress:      stored.exactAddress      ?? facility.exactAddress      ?? "",
-      area:              stored.area              ?? facility.area              ?? "",
-      buildYear:         stored.buildYear         ?? facility.buildYear         ?? "",
+      exactAddress:      String(stored.exactAddress      ?? facility.exactAddress      ?? ""),
+      area:              String(stored.area              ?? facility.area              ?? ""),
+      buildYear:         String(stored.buildYear         ?? facility.buildYear         ?? ""),
+      buildingStructure: String(stored.buildingStructure ?? facility.buildingStructure ?? ""),
+      annualCost:        String(stored.annualCost        ?? facility.annualCost        ?? ""),
       electricity:       stored.electricity       ?? facility.electricity       ?? "",
       water:             stored.water             ?? facility.water             ?? "",
       gas:               stored.gas               ?? facility.gas               ?? "",
@@ -115,6 +121,8 @@ export default function AdminEdit({ facility }: Props) {
     { key: "exactAddress",      label: "正確な住所",              icon: "📮" },
     { key: "area",              label: "面積（㎡）",              icon: "📐" },
     { key: "buildYear",         label: "築年数",                  icon: "🏗️" },
+    { key: "buildingStructure", label: "建物構造（RC造/木造等）", icon: "🧱" },
+    { key: "annualCost",        label: "年間維持管理費（円）",    icon: "💴" },
     { key: "electricity",       label: "電気",                    icon: "⚡", type: "select_infra" },
     { key: "water",             label: "水道",                    icon: "💧", type: "select_infra" },
     { key: "gas",               label: "ガス",                    icon: "🔥", type: "select_infra" },

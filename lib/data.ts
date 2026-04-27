@@ -14,6 +14,14 @@ export function getPrefectures(): string[] {
   return Array.from(set).sort();
 }
 
+export function getFacilityCounts(): Record<string, number> {
+  const counts: Record<string, number> = {};
+  for (const f of facilities) {
+    counts[f.prefecture] = (counts[f.prefecture] ?? 0) + 1;
+  }
+  return counts;
+}
+
 export const STATUS_OPTIONS: { value: NormalizedStatus | "すべて"; label: string }[] = [
   { value: "すべて", label: "すべての状態" },
   { value: "民間活用募集中", label: "民間活用募集中（申込・交渉可）" },

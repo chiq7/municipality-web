@@ -4,7 +4,7 @@ import { getFacilityById, facilities } from "@/lib/data";
 import { getApplicableSubsidies } from "@/lib/subsidies";
 import StatusBadge from "@/components/StatusBadge";
 import { FacilityPlaceholder } from "@/components/FacilityTypeIcon";
-import InfoRow from "@/components/InfoRow";
+import type { FacilityType } from "@/lib/types";
 
 export async function generateStaticParams() {
   return facilities.map((f) => ({ id: f.id }));
@@ -20,14 +20,32 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   };
 }
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+const TYPE_ICONS: Record<FacilityType, { emoji: string; bg: string }> = {
+  "温泉施設":                   { emoji: "♨️",  bg: "bg-red-50" },
+  "廃校（旧学校）":             { emoji: "🏫",  bg: "bg-blue-50" },
+  "宿泊・観光施設":             { emoji: "🏨",  bg: "bg-teal-50" },
+  "体育館・スポーツ施設":       { emoji: "🏟️", bg: "bg-green-50" },
+  "公民館・集会施設":           { emoji: "🏛️", bg: "bg-purple-50" },
+  "公園・レクリエーション施設": { emoji: "🌳",  bg: "bg-emerald-50" },
+  "倉庫・ストレージ":           { emoji: "🏗️", bg: "bg-gray-50" },
+  "庁舎・行政施設":             { emoji: "🏢",  bg: "bg-slate-50" },
+  "医療・福祉施設":             { emoji: "🏥",  bg: "bg-pink-50" },
+  "未分類":                     { emoji: "🏚️", bg: "bg-gray-50" },
+};
+
+function InfoGrid({ items }: { items: { icon: string; label: string; value: string | null | number | undefined }[] }) {
   return (
-    <section className="bg-white border border-gray-200 rounded-xl p-5">
-      <h2 className="font-bold text-base text-gray-900 mb-4 pb-2 border-b border-gray-100">
-        {title}
-      </h2>
-      {children}
-    </section>
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+      {items.map(({ icon, label, value }) => (
+        <div key={label} className="bg-gray-50 rounded-xl p-3 text-center">
+          <p className="text-xl mb-1">{icon}</p>
+          <p className="text-xs text-gray-500 mb-0.5">{label}</p>
+          <p className={`text-sm font-semibold ${value != null ? "text-gray-900" : "text-gray-400"}`}>
+            {value != null ? String(value) : "未取得"}
+          </p>
+        </div>
+      ))}
+    </div>
   );
 }
 
@@ -41,6 +59,7 @@ export default async function FacilityDetailPage({
   if (!f) notFound();
 
   const subsidies = getApplicableSubsidies(f);
+  const typeIcon = TYPE_ICONS[f.facilityType] ?? TYPE_ICONS["未分類"];
 
   const mailSubject = encodeURIComponent(`${f.municipality} ${f.facilityName}に関するお問い合わせ`);
   const mailBody = encodeURIComponent(
@@ -49,228 +68,206 @@ export default async function FacilityDetailPage({
 
   return (
     <div className="bg-gray-50 min-h-screen">
-      {/* ナビゲーション */}
       <div className="max-w-3xl mx-auto px-4 py-3">
-        <Link href="/" className="text-sm text-blue-600 hover:underline">
+        <Link href="/" className="text-sm text-blue-600 hover:underline inline-flex items-center gap-1">
           ← 一覧に戻る
         </Link>
       </div>
 
       <main className="max-w-3xl mx-auto px-4 pb-12 space-y-4">
 
-        {/* ① 施設基本情報 */}
-        <Section title="① 施設基本情報">
-          {/* 写真エリア */}
-          <div className="mb-4">
+        {/* ① ヘッダーカード */}
+        <div className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+          {/* 写真 or アイコン */}
+          <div className="h-52 relative">
             {f.photoUrl ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={f.photoUrl}
-                alt={f.facilityName}
-                className="w-full h-56 object-cover rounded-lg"
-              />
+              <img src={f.photoUrl} alt={f.facilityName} className="w-full h-full object-cover" />
             ) : (
-              <FacilityPlaceholder type={f.facilityType} />
+              <div className={`w-full h-full flex flex-col items-center justify-center ${typeIcon.bg}`}>
+                <span style={{ fontSize: 80, lineHeight: 1 }}>{typeIcon.emoji}</span>
+              </div>
             )}
           </div>
 
-          {/* 施設名 */}
-          <h1 className="text-2xl font-bold text-gray-900 mb-2 leading-snug">
-            {f.facilityName}
-          </h1>
+          <div className="p-5">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
+              <StatusBadge status={f.normalizedStatus} />
+              {f.tags?.includes("条件付き利用可") && (
+                <span className="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded-full border border-orange-200 font-medium">
+                  ⚠️ 条件付き利用可
+                </span>
+              )}
+            </div>
 
-          {/* 都道府県・市区町村 */}
-          <p className="text-sm text-gray-600 mb-3">
-            📍 {f.prefecture} {f.municipality}
-          </p>
+            <h1 className="text-2xl font-bold text-gray-900 mb-1 leading-snug">{f.facilityName}</h1>
+            <p className="text-sm text-gray-500 mb-3">📍 {f.prefecture} {f.municipality}</p>
 
-          {/* タイプ・状態 */}
-          <div className="flex flex-wrap items-center gap-2 mb-4">
-            <span className="inline-block text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded-full border border-gray-200">
-              🏷 {f.facilityType}
-            </span>
-            <StatusBadge status={f.normalizedStatus} />
+            {f.rawStatus && (
+              <div className="inline-block bg-gray-50 border border-gray-200 rounded-lg px-3 py-1.5 text-xs text-gray-600">
+                PDF原文：「{f.rawStatus}」
+              </div>
+            )}
           </div>
+        </div>
 
-          {/* PDF上の表記（原文） */}
-          {f.rawStatus && (
-            <div className="mb-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
-              <p className="text-xs text-gray-500 mb-1">PDF上の状態表記（原文）</p>
-              <p className="text-sm text-gray-800 font-medium">{f.rawStatus}</p>
+        {/* ② 施設スペック */}
+        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+          <h2 className="font-bold text-base text-gray-900 mb-4">施設スペック</h2>
+          <InfoGrid items={[
+            { icon: "📐", label: "面積",   value: f.area != null ? `${f.area}㎡` : null },
+            { icon: "📅", label: "築年",   value: f.buildYear != null ? `${f.buildYear}年` : null },
+            { icon: "🏗️", label: "構造",  value: f.buildingStructure },
+            { icon: "⚡", label: "電気",   value: f.electricity },
+            { icon: "💧", label: "水道",   value: f.water },
+            { icon: "🔥", label: "ガス",   value: f.gas },
+            { icon: "⚠️", label: "ハザード", value: null },
+            { icon: "🗺️", label: "調整区域", value: null },
+          ]} />
+
+          {f.annualCost != null && (
+            <div className="mt-4 p-3 bg-amber-50 rounded-xl border border-amber-100">
+              <p className="text-xs text-amber-700">年間維持管理費（PDF記載）</p>
+              <p className="text-lg font-bold text-amber-900">{f.annualCost.toLocaleString()}円/年</p>
+            </div>
+          )}
+        </div>
+
+        {/* ③ 賃料目安 */}
+        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+          <h2 className="font-bold text-base text-gray-900 mb-3">💰 賃料目安（土地のみ）</h2>
+          <div className="text-center py-4">
+            <p className="text-3xl font-bold text-gray-300">調査中</p>
+          </div>
+          <p className="text-xs text-gray-400 text-center leading-relaxed">
+            ※住所取得後に路線価より自動計算予定<br />
+            建物使用・宿泊・商業利用の場合は別途加算<br />
+            実際の金額は自治体との交渉により異なります
+          </p>
+        </div>
+
+        {/* ④ 住所 */}
+        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+          <h2 className="font-bold text-base text-gray-900 mb-3">📮 所在地</h2>
+          {f.exactAddress ? (
+            <p className="text-sm text-gray-900 font-medium">{f.exactAddress}</p>
+          ) : (
+            <div className="bg-gray-50 rounded-xl p-3">
+              <p className="text-xs text-gray-500 mb-1">住所未取得</p>
+              <p className="text-sm text-gray-600">
+                「{f.facilityName}」{f.municipality} で検索してください
+              </p>
+            </div>
+          )}
+          {f.department && (
+            <p className="text-xs text-gray-500 mt-2">担当部署：{f.department}</p>
+          )}
+        </div>
+
+        {/* ⑤ PDF原文 */}
+        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+          <h2 className="font-bold text-base text-gray-900 mb-3">📄 PDF原文情報</h2>
+
+          {f.keywords.length > 0 && (
+            <div className="mb-3">
+              <p className="text-xs text-gray-500 mb-1.5">検出キーワード</p>
+              <div className="flex flex-wrap gap-1">
+                {f.keywords.map((kw, i) => (
+                  <span key={i} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full border border-blue-100">
+                    {kw}
+                  </span>
+                ))}
+              </div>
             </div>
           )}
 
-          {/* 情報出典 */}
-          <div className="p-3 bg-blue-50 rounded-lg text-xs text-blue-800 space-y-0.5">
-            <p>
-              <span className="font-medium">情報出典：</span>
-              {f.municipality} 公共施設等総合管理計画
-            </p>
-            <p>
-              <span className="font-medium">取得日：</span>
-              {f.dataAcquiredDate}
-            </p>
-            <p className="text-blue-600">※最新情報は自治体にご確認ください</p>
-          </div>
-        </Section>
-
-        {/* ② 法規制・リスク情報 */}
-        <Section title="② 法規制・リスク情報">
-          <p className="text-xs text-gray-500 mb-3">
-            以下の情報はPDF資料に記載がある場合のみ掲載しています。
-          </p>
-          <InfoRow icon="⚠️" label="ハザードリスク" value={null} />
-          <InfoRow icon="🏙️" label="区域制限（市街化調整区域等）" value={null} />
-          <InfoRow
-            icon="🏷️"
-            label="施設タイプ（確認済み）"
-            value={f.facilityType !== "未分類" ? f.facilityType : null}
-          />
-          <p className="mt-3 text-xs text-amber-700 bg-amber-50 rounded p-2">
-            上記「未取得」の項目は自治体への問い合わせで確認が必要です。
-          </p>
-        </Section>
-
-        {/* ③ PDFから読み取れた情報（原文のみ・AI要約なし） */}
-        <Section title="③ PDFから読み取れた情報">
-          <p className="text-xs text-gray-500 mb-3">
-            以下はPDFから抽出した原文テキストです。AIによる要約・解釈は行っていません。
-          </p>
-
-          {/* 検出キーワード（原文） */}
-          <div className="mb-4">
-            <p className="text-xs text-gray-500 mb-2">検出キーワード（PDF原文）</p>
-            <div className="flex flex-wrap gap-1.5">
-              {f.keywords.length > 0 ? (
-                f.keywords.map((kw, i) => (
-                  <span
-                    key={i}
-                    className="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded border border-gray-200"
-                  >
-                    {kw}
-                  </span>
-                ))
-              ) : (
-                <span className="text-xs text-gray-400 italic">キーワードなし</span>
-              )}
-            </div>
-          </div>
-
-          {/* 抜粋（PDF原文そのまま・AI要約禁止） */}
-          <div className="mb-4">
-            <p className="text-xs text-gray-500 mb-2">
-              該当箇所の抜粋
-              <span className="ml-1 text-gray-400">（PDF原文そのまま。ユーザーご自身でご判断ください）</span>
-            </p>
-            {f.excerpt ? (
-              <blockquote className="text-sm text-gray-800 bg-gray-50 rounded-lg p-4 border-l-4 border-gray-400 leading-relaxed whitespace-pre-wrap">
+          {f.excerpt && (
+            <div className="mb-3">
+              <p className="text-xs text-gray-500 mb-1.5">抜粋（PDF原文）</p>
+              <blockquote className="text-sm text-gray-700 bg-gray-50 rounded-xl p-4 border-l-4 border-gray-300 leading-relaxed whitespace-pre-wrap">
                 {f.excerpt}
               </blockquote>
-            ) : (
-              <p className="text-sm text-gray-400 italic">抜粋なし</p>
-            )}
-          </div>
-
-          {/* 出典・取得日 */}
-          <div className="border-t border-gray-100 pt-3 space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="text-xs text-gray-500">出典PDF</span>
-              <a
-                href={f.pdfUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-blue-600 hover:underline"
-              >
-                元資料PDFを見る →
-              </a>
             </div>
-            <div className="flex items-center justify-between">
-              <span className="text-xs text-gray-500">データ取得日</span>
-              <span className="text-xs text-gray-700">{f.dataAcquiredDate}</span>
-            </div>
-          </div>
-        </Section>
+          )}
 
-        {/* ④ 使える可能性がある補助金（公式情報に基づくもののみ） */}
-        <Section title="④ 使える可能性がある補助金">
-          {subsidies.length === 0 ? (
-            <p className="text-sm text-gray-500">
-              現時点でPDF・公式情報に基づく該当補助金は確認されていません。
-            </p>
-          ) : (
+          <div className="flex items-center justify-between pt-2 border-t border-gray-100">
+            <span className="text-xs text-gray-500">{f.municipality} 公共施設等総合管理計画 | {f.dataAcquiredDate}</span>
+            <a
+              href={f.pdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-blue-600 hover:underline"
+            >
+              元資料PDF →
+            </a>
+          </div>
+        </div>
+
+        {/* ⑥ 補助金 */}
+        {subsidies.length > 0 && (
+          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+            <h2 className="font-bold text-base text-gray-900 mb-3">🎁 使える可能性がある補助金</h2>
             <div className="space-y-3">
-              <p className="text-xs text-amber-700 bg-amber-50 rounded p-2">
-                以下は公式情報に基づく補助金です。各省庁の最新情報を必ずご確認ください。
-                出典リンクを必ずご確認ください。
-              </p>
               {subsidies.map((s, i) => (
-                <div key={i} className="border border-gray-200 rounded-lg p-3 space-y-1">
-                  <div className="flex items-start justify-between gap-2">
-                    <p className="font-medium text-sm text-gray-900">{s.name}</p>
-                    <span className="text-xs text-gray-500 shrink-0">{s.ministry}</span>
+                <div key={i} className="border border-gray-100 rounded-xl p-3 flex items-start justify-between gap-2">
+                  <div>
+                    <p className="text-xs text-gray-500 mb-0.5">{s.ministry}</p>
+                    <p className="text-sm font-medium text-gray-900">{s.name}</p>
+                    <p className="text-xs text-gray-500 mt-0.5">{s.description}</p>
                   </div>
-                  <p className="text-xs text-gray-600">{s.description}</p>
                   <a
                     href={s.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-blue-600 hover:underline"
+                    className="shrink-0 text-xs text-blue-600 hover:underline"
                   >
-                    公式サイトで確認する（出典） →
+                    詳細 →
                   </a>
                 </div>
               ))}
+              <p className="text-xs text-gray-400">※適用条件は要確認。各省庁公式サイトでご確認ください。</p>
             </div>
-          )}
-        </Section>
-
-        {/* ⑤ 活用ポテンシャル（非表示・将来用） */}
-        {/* DBフィールド: f.activationPotential, f.activationNotes */}
-
-        {/* 未取得情報 */}
-        <Section title="未取得情報（詳細データ）">
-          <InfoRow icon="📮" label="正確な住所" value={f.exactAddress} />
-          <InfoRow icon="📐" label="面積（㎡）" value={f.area} />
-          <InfoRow icon="🏗️" label="築年数" value={f.buildYear} />
-          <InfoRow icon="⚡" label="電気" value={f.electricity} />
-          <InfoRow icon="💧" label="水道" value={f.water} />
-          <InfoRow icon="🔥" label="ガス" value={f.gas} />
-          <InfoRow icon="📸" label="写真URL" value={f.photoUrl} />
-          <InfoRow icon="🏛️" label="担当部署" value={f.department} />
-          <InfoRow icon="📧" label="担当者メールアドレス" value={f.contactEmail} />
-          <InfoRow icon="📅" label="最終確認日" value={f.lastVerifiedDate} />
-          <InfoRow icon="📋" label="確認方法" value={f.verificationMethod} />
-          <div className="mt-3">
-            <Link href={`/admin/${f.id}`} className="text-xs text-blue-600 hover:underline">
-              ✏️ 未取得情報を入力する（管理者用）
-            </Link>
           </div>
-        </Section>
+        )}
 
-        {/* ⑥ 自治体への問い合わせ */}
-        <Section title="⑥ 自治体への問い合わせ">
+        {/* ⑦ 問い合わせ */}
+        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+          <h2 className="font-bold text-base text-gray-900 mb-4">📞 問い合わせ</h2>
           <div className="space-y-3">
+            <a
+              href={`mailto:?subject=${mailSubject}&body=${mailBody}`}
+              className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-green-600 text-sm font-bold text-white hover:bg-green-700 transition-colors"
+            >
+              ✉️ 自治体に問い合わせる
+            </a>
             {f.municipalityUrl && (
               <a
                 href={f.municipalityUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 w-full py-3 rounded-lg border-2 border-gray-300 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl border-2 border-gray-200 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
               >
-                🌐 自治体公式サイトへ
+                🌐 自治体公式サイト
               </a>
             )}
-            <a
-              href={`mailto:?subject=${mailSubject}&body=${mailBody}`}
-              className="flex items-center justify-center gap-2 w-full py-3 rounded-lg bg-blue-600 text-sm font-medium text-white hover:bg-blue-700 transition-colors"
+            <Link
+              href={`/?prefecture=${encodeURIComponent(f.prefecture)}`}
+              className="flex items-center justify-center gap-2 w-full py-3 rounded-xl border-2 border-gray-200 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
             >
-              ✉️ 詳細情報を問い合わせる（メールテンプレート）
-            </a>
-            <p className="text-xs text-gray-500 text-center">
-              メールクライアントが開きます。担当者のアドレスを手動で入力してください。
-            </p>
+              📍 同じ都道府県の施設を見る
+            </Link>
           </div>
-        </Section>
+          <p className="text-xs text-gray-400 text-center mt-3">
+            メールクライアントが開きます。担当者アドレスを手動で入力してください。
+          </p>
+        </div>
+
+        {/* 管理者リンク */}
+        <div className="text-center">
+          <Link href={`/admin/${f.id}`} className="text-xs text-gray-400 hover:underline">
+            ✏️ 未取得情報を入力する（管理者用）
+          </Link>
+        </div>
 
       </main>
     </div>

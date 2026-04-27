@@ -63,19 +63,27 @@ export async function GET(req: NextRequest) {
   }
 
   const { searchParams } = req.nextUrl;
-  const page    = Math.max(1, parseInt(searchParams.get("page") ?? "1", 10));
-  const status  = searchParams.get("status") ?? "";
-  const pref    = searchParams.get("prefecture") ?? "";
-  const query   = searchParams.get("query") ?? "";
+  const page         = Math.max(1, parseInt(searchParams.get("page") ?? "1", 10));
+  const status       = searchParams.get("status") ?? "";
+  const pref         = searchParams.get("prefecture") ?? "";
+  const query        = searchParams.get("query") ?? "";
+  const facilityType = searchParams.get("facilityType") ?? "";
+  const favOnly      = searchParams.get("favorites") === "1";
+  const favIds       = searchParams.get("favIds") ?? "";
 
   // フィルタリング
   let filtered = facilities as Facility[];
-  if (status)  filtered = filtered.filter((f) => f.normalizedStatus === (status as NormalizedStatus));
-  if (pref)    filtered = filtered.filter((f) => f.prefecture === pref);
+  if (status)       filtered = filtered.filter((f) => f.normalizedStatus === (status as NormalizedStatus));
+  if (pref)         filtered = filtered.filter((f) => f.prefecture === pref);
+  if (facilityType) filtered = filtered.filter((f) => f.facilityType === facilityType);
+  if (favOnly && favIds) {
+    const ids = new Set(favIds.split(","));
+    filtered = filtered.filter((f) => ids.has(f.id));
+  }
   if (query) {
     const q = query.toLowerCase();
     filtered = filtered.filter((f) =>
-      (f.facilityName + f.municipality + f.prefecture + f.keywords.join(" "))
+      (f.facilityName + f.municipality + f.prefecture + f.keywords.join(" ") + f.excerpt)
         .toLowerCase()
         .includes(q)
     );
