@@ -1,0 +1,25 @@
+# 未利用公共施設バンク robots.txt
+
+# 検索エンジン: 施設ページのみ許可
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/static/chunks/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/static/chunks/
+
+# その他クローラー: 施設ページのみ許可
+User-agent: *
+Allow: /
+Allow: /facility/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/static/chunks/
+Disallow: /_next/static/media/
+
+Crawl-delay: 2

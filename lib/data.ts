@@ -1,3 +1,5 @@
+// このモジュールはサーバーコンポーネント・APIルートのみからimportしてください。
+// クライアントコンポーネントからimportすると facilities.json が全件クライアントに送信されます。
 import type { Facility, NormalizedStatus } from "./types";
 import facilitiesRaw from "../data/facilities.json";
 

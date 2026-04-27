@@ -1,181 +1,20 @@
-"use client";
+// サーバーコンポーネント: 対象施設のみクライアントに渡す（全件ロード防止）
+import { notFound } from "next/navigation";
+import { getFacilityById, facilities } from "@/lib/data";
+import AdminEdit from "./AdminEdit";
 
-import { useState, useEffect } from "react";
-import { useParams, useRouter } from "next/navigation";
-import Link from "next/link";
-import { facilities } from "@/lib/data";
-import type { Facility } from "@/lib/types";
-
-const STORAGE_KEY = "facility_overrides_v1";
-
-function loadOverrides(): Record<string, Partial<Facility>> {
-  if (typeof window === "undefined") return {};
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-  } catch {
-    return {};
-  }
+export async function generateStaticParams() {
+  return facilities.map((f) => ({ id: f.id }));
 }
 
-function saveOverride(id: string, data: Partial<Facility>) {
-  const all = loadOverrides();
-  all[id] = { ...all[id], ...data };
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
-}
+export default async function AdminPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const facility = getFacilityById(id);
+  if (!facility) notFound();
 
-export default function AdminEditPage() {
-  const params = useParams();
-  const router = useRouter();
-  const id = params.id as string;
-
-  const base = facilities.find((f) => f.id === id);
-  const [saved, setSaved] = useState(false);
-  const [form, setForm] = useState({
-    exactAddress: "",
-    area: "",
-    buildYear: "",
-    electricity: "",
-    water: "",
-    gas: "",
-    photoUrl: "",
-    department: "",
-    contactEmail: "",
-    lastVerifiedDate: "",
-    verificationMethod: "",
-  });
-
-  useEffect(() => {
-    const overrides = loadOverrides();
-    const stored = overrides[id] || {};
-    setForm((prev) => ({
-      exactAddress: stored.exactAddress ?? base?.exactAddress ?? "",
-      area: stored.area ?? base?.area ?? "",
-      buildYear: stored.buildYear ?? base?.buildYear ?? "",
-      electricity: stored.electricity ?? base?.electricity ?? "",
-      water: stored.water ?? base?.water ?? "",
-      gas: stored.gas ?? base?.gas ?? "",
-      photoUrl: stored.photoUrl ?? base?.photoUrl ?? "",
-      department: stored.department ?? base?.department ?? "",
-      contactEmail: stored.contactEmail ?? base?.contactEmail ?? "",
-      lastVerifiedDate: stored.lastVerifiedDate ?? base?.lastVerifiedDate ?? "",
-      verificationMethod: stored.verificationMethod ?? base?.verificationMethod ?? "",
-    }));
-  }, [id, base]);
-
-  if (!base) {
-    return (
-      <div className="max-w-2xl mx-auto px-4 py-12 text-center">
-        <p className="text-gray-500">施設が見つかりません</p>
-        <Link href="/" className="text-blue-600 hover:underline mt-4 block">← 一覧に戻る</Link>
-      </div>
-    );
-  }
-
-  const handleChange = (key: string, value: string) => {
-    setForm((prev) => ({ ...prev, [key]: value }));
-    setSaved(false);
-  };
-
-  const handleSave = () => {
-    const cleaned: Partial<Facility> = {};
-    for (const [k, v] of Object.entries(form)) {
-      (cleaned as Record<string, string | null>)[k] = v.trim() || null;
-    }
-    saveOverride(id, cleaned);
-    setSaved(true);
-  };
-
-  const handleExport = () => {
-    const overrides = loadOverrides();
-    const merged = facilities.map((f) => ({ ...f, ...overrides[f.id] }));
-    const blob = new Blob([JSON.stringify(merged, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "facilities_updated.json";
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-
-  const fields: { key: keyof typeof form; label: string; icon: string; type?: string }[] = [
-    { key: "exactAddress", label: "正確な住所", icon: "📮" },
-    { key: "area", label: "面積（㎡）", icon: "📐" },
-    { key: "buildYear", label: "築年数", icon: "🏗️" },
-    { key: "electricity", label: "電気", icon: "⚡", type: "select_infra" },
-    { key: "water", label: "水道", icon: "💧", type: "select_infra" },
-    { key: "gas", label: "ガス", icon: "🔥", type: "select_infra" },
-    { key: "photoUrl", label: "写真URL", icon: "📸" },
-    { key: "department", label: "担当部署名", icon: "🏛️" },
-    { key: "contactEmail", label: "担当者メールアドレス", icon: "📧", type: "email" },
-    { key: "lastVerifiedDate", label: "最終確認日（例: 2025-04-20）", icon: "📅" },
-    { key: "verificationMethod", label: "確認方法（PDF/メール/電話）", icon: "📋" },
-  ];
-
-  return (
-    <div className="bg-gray-50 min-h-screen">
-      <div className="max-w-2xl mx-auto px-4 py-4">
-        <Link href={`/facility/${id}`} className="text-sm text-blue-600 hover:underline">
-          ← 詳細ページに戻る
-        </Link>
-      </div>
-
-      <main className="max-w-2xl mx-auto px-4 pb-12">
-        <div className="bg-white border border-gray-200 rounded-xl p-5 mb-4">
-          <h1 className="font-bold text-lg text-gray-900 mb-1">未取得情報の入力</h1>
-          <p className="text-sm text-gray-600 mb-1">
-            {base.prefecture} {base.municipality}｜{base.facilityName}
-          </p>
-          <p className="text-xs text-amber-700 bg-amber-50 rounded p-2">
-            入力データはブラウザのlocalStorageに保存されます。
-            全データを更新するには「JSONエクスポート」から data/facilities.json を更新してください。
-          </p>
-        </div>
-
-        <div className="bg-white border border-gray-200 rounded-xl p-5 space-y-4">
-          {fields.map(({ key, label, icon, type }) => (
-            <div key={key}>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                {icon} {label}
-              </label>
-              {type === "select_infra" ? (
-                <select
-                  value={form[key]}
-                  onChange={(e) => handleChange(key, e.target.value)}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500"
-                >
-                  <option value="">未取得</option>
-                  <option value="あり">あり</option>
-                  <option value="なし">なし</option>
-                  <option value="要確認">要確認</option>
-                </select>
-              ) : (
-                <input
-                  type={type || "text"}
-                  value={form[key]}
-                  onChange={(e) => handleChange(key, e.target.value)}
-                  placeholder="未取得"
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500"
-                />
-              )}
-            </div>
-          ))}
-
-          <div className="flex gap-3 pt-2">
-            <button
-              onClick={handleSave}
-              className="flex-1 py-2.5 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors"
-            >
-              {saved ? "✅ 保存済み" : "保存する"}
-            </button>
-            <button
-              onClick={handleExport}
-              className="flex-1 py-2.5 rounded-lg border border-gray-300 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
-            >
-              📥 全データをJSONエクスポート
-            </button>
-          </div>
-        </div>
-      </main>
-    </div>
-  );
+  return <AdminEdit facility={facility} />;
 }
